@@ -1,10 +1,10 @@
 {
   "summary": {
-    "scenarios_total": 10,
-    "passed": 10,
+    "scenarios_total": 11,
+    "passed": 11,
     "failed": 0,
     "crashes": 0,
-    "generated_at": "2026-08-02T09:03:49"
+    "generated_at": "2026-08-09T20:00:46"
   },
   "scenarios": [
     {
@@ -13,14 +13,14 @@
       "reason_contains": "",
       "detections_max": "",
       "note": "shelf3.jpg blurred with a 25x25 Gaussian kernel. The image is still a",
-      "run_id": "run_20260802-090337-856b",
+      "run_id": "run_20260809-200029-0df8",
       "per_image": [
         {
           "image": "blurry.jpg",
           "status": "ok",
           "detections": 190,
           "tasks": 12,
-          "seconds": 0.8,
+          "seconds": 1.2,
           "mean_confidence": 0.5462
         }
       ],
@@ -29,7 +29,7 @@
       "images_rejected": 0,
       "images_processed": 1,
       "total_detections": 190,
-      "runtime_seconds": 1.68,
+      "runtime_seconds": 5.44,
       "crashed": false,
       "crash_detail": "",
       "result": "PASS"
@@ -40,7 +40,7 @@
       "reason_contains": "corrupt or unreadable",
       "detections_max": "",
       "note": "shelf3.jpg cut to its first 800 bytes \u2014 the JPEG header is intact but",
-      "run_id": "run_20260802-090339-ec2f",
+      "run_id": "run_20260809-200034-4f8d",
       "per_image": [
         {
           "image": "corrupt.jpg",
@@ -56,7 +56,7 @@
       "images_rejected": 1,
       "images_processed": 0,
       "total_detections": 0,
-      "runtime_seconds": 0.73,
+      "runtime_seconds": 0.81,
       "crashed": false,
       "crash_detail": "",
       "result": "PASS"
@@ -67,14 +67,14 @@
       "reason_contains": "",
       "detections_max": "",
       "note": "shelf3.jpg at ~40% brightness. Valid image \u2014 expect fewer/weaker",
-      "run_id": "run_20260802-090340-871d",
+      "run_id": "run_20260809-200034-4d19",
       "per_image": [
         {
           "image": "dark.jpg",
           "status": "ok",
           "detections": 284,
           "tasks": 7,
-          "seconds": 0.9,
+          "seconds": 1.0,
           "mean_confidence": 0.5805
         }
       ],
@@ -83,7 +83,7 @@
       "images_rejected": 0,
       "images_processed": 1,
       "total_detections": 284,
-      "runtime_seconds": 1.77,
+      "runtime_seconds": 1.93,
       "crashed": false,
       "crash_detail": "",
       "result": "PASS"
@@ -94,7 +94,7 @@
       "reason_contains": "corrupt or unreadable",
       "detections_max": "",
       "note": "A 0-byte file named empty.jpg. There is no image in it at all \u2014 Stage 2",
-      "run_id": "run_20260802-090341-f8d0",
+      "run_id": "run_20260809-200036-0c21",
       "per_image": [
         {
           "image": "empty.jpg",
@@ -108,7 +108,7 @@
       "images_rejected": 1,
       "images_processed": 0,
       "total_detections": 0,
-      "runtime_seconds": 0.75,
+      "runtime_seconds": 0.92,
       "crashed": false,
       "crash_detail": "",
       "result": "PASS"
@@ -119,7 +119,7 @@
       "reason_contains": "",
       "detections_max": "60",
       "note": "shelf4.jpg (meringues on a supermarket shelf) is a known hard case:",
-      "run_id": "run_20260802-090342-3667",
+      "run_id": "run_20260809-200037-f74d",
       "per_image": [
         {
           "image": "shelf4.jpg",
@@ -135,7 +135,7 @@
       "images_rejected": 0,
       "images_processed": 1,
       "total_detections": 14,
-      "runtime_seconds": 1.45,
+      "runtime_seconds": 1.49,
       "crashed": false,
       "crash_detail": "",
       "result": "PASS"
@@ -146,14 +146,14 @@
       "reason_contains": "",
       "detections_max": "15",
       "note": "Aerial photo of an empty parking lot (Wikimedia Commons). There are no",
-      "run_id": "run_20260802-090344-bb6e",
+      "run_id": "run_20260809-200039-9214",
       "per_image": [
         {
           "image": "parking_lot.jpg",
           "status": "ok",
           "detections": 0,
           "tasks": 32,
-          "seconds": 0.7,
+          "seconds": 0.8,
           "mean_confidence": 0.0
         }
       ],
@@ -162,7 +162,7 @@
       "images_rejected": 0,
       "images_processed": 1,
       "total_detections": 0,
-      "runtime_seconds": 1.59,
+      "runtime_seconds": 1.62,
       "crashed": false,
       "crash_detail": "",
       "result": "PASS"
@@ -173,7 +173,7 @@
       "reason_contains": "corrupt or unreadable",
       "detections_max": "",
       "note": "notes.jpg is really a text file wearing a .jpg name \u2014 Stage 2 must",
-      "run_id": "run_20260802-090345-2434",
+      "run_id": "run_20260809-200040-1aa7",
       "per_image": [
         {
           "image": "notes.jpg",
@@ -189,7 +189,7 @@
       "images_rejected": 1,
       "images_processed": 0,
       "total_detections": 0,
-      "runtime_seconds": 0.76,
+      "runtime_seconds": 0.82,
       "crashed": false,
       "crash_detail": "",
       "result": "PASS"
@@ -200,7 +200,7 @@
       "reason_contains": "too large",
       "detections_max": "",
       "note": "shelf1.jpg upscaled to 8100px wide (9438px tall) \u2014 above the pipeline's",
-      "run_id": "run_20260802-090346-5e8d",
+      "run_id": "run_20260809-200041-1864",
       "per_image": [
         {
           "image": "oversized.jpg",
@@ -214,7 +214,34 @@
       "images_rejected": 1,
       "images_processed": 0,
       "total_detections": 0,
-      "runtime_seconds": 0.74,
+      "runtime_seconds": 0.77,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    },
+    {
+      "name": "staged_oos",
+      "expected": "ok",
+      "reason_contains": "",
+      "detections_max": "",
+      "note": "shelf3.jpg with one slot blacked out (row 2, slot 3). The image is a",
+      "run_id": "run_20260809-200042-54f9",
+      "per_image": [
+        {
+          "image": "shelf3_staged.jpg",
+          "status": "ok",
+          "detections": 280,
+          "tasks": 9,
+          "seconds": 1.1,
+          "mean_confidence": 0.5819
+        }
+      ],
+      "ignored_by_design": [],
+      "images_total": 1,
+      "images_rejected": 0,
+      "images_processed": 1,
+      "total_detections": 280,
+      "runtime_seconds": 2.01,
       "crashed": false,
       "crash_detail": "",
       "result": "PASS"
@@ -225,7 +252,7 @@
       "reason_contains": "",
       "detections_max": "",
       "note": "shelf3.jpg rotated 15 degrees with white border fill. Valid image \u2014",
-      "run_id": "run_20260802-090347-7d77",
+      "run_id": "run_20260809-200044-9718",
       "per_image": [
         {
           "image": "tilted.jpg",
@@ -241,7 +268,7 @@
       "images_rejected": 0,
       "images_processed": 1,
       "total_detections": 212,
-      "runtime_seconds": 1.68,
+      "runtime_seconds": 1.75,
       "crashed": false,
       "crash_detail": "",
       "result": "PASS"
@@ -252,7 +279,7 @@
       "reason_contains": "too small",
       "detections_max": "",
       "note": "shelf3.jpg resized to 48x36 pixels \u2014 below the pipeline's 64-pixel",
-      "run_id": "run_20260802-090348-8d39",
+      "run_id": "run_20260809-200046-986f",
       "per_image": [
         {
           "image": "tiny.jpg",
@@ -266,7 +293,7 @@
       "images_rejected": 1,
       "images_processed": 0,
       "total_detections": 0,
-      "runtime_seconds": 0.73,
+      "runtime_seconds": 0.76,
       "crashed": false,
       "crash_detail": "",
       "result": "PASS"

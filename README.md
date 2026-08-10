@@ -73,7 +73,7 @@ Outputs: `results/images/` (annotated), `results/tasks/` (work orders + reports)
 Full write-up: [results/eval_report.md](results/eval_report.md) (component + system level, all 25 agent flags human-verified against photos).
 
 - **Component level:** detector published test metrics on SKU-110K — precision 0.896, recall 0.838, mAP@0.5 0.906; our measured detections/image: 7–909 depending on shelf density (see report for the `max_det` truncation bug we found and fixed)
-- **System level:** 10/10 robustness scenarios pass with 0 crashes (`tests/run_scenarios.py`); 6/6 sample images complete; 0.6–1.7 s/image on Apple Silicon; every hand-off traced
+- **System level:** 11/11 robustness scenarios pass with 0 crashes (`tests/run_scenarios.py`); 6/6 sample images complete; 0.6–1.7 s/image on Apple Silicon; every hand-off traced
 - **Failure cases (honest):** under-detection on unusual packaging (shelf4: 14 boxes on a full shelf) and color-cast photos (shelf6: 7 boxes); false `low_facing` flags from perspective foreshortening; no true-positive OOS measurement yet (needs real staged photos — synthetic blackout test showed correct-direction sensitivity)
 
 ## Example Agent Run

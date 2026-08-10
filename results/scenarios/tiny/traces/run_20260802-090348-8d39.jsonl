@@ -1,1 +1,0 @@
-{"sender": "Orchestrator", "recipient": "ScannerAgent", "message_type": "RejectedInput", "payload": {"image_path": "/Users/aceboogie/Desktop/shelf-planogram-agent/data/scenarios/tiny/tiny.jpg", "reason": "too small (48x36)"}, "confidence": 1.0, "run_id": "run_20260802-090348-8d39", "timestamp": 1785679429.3660958}

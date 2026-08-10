@@ -47,7 +47,7 @@ Blacked out one slot of shelf3 (row 2, slot 3) to simulate a genuine gap.
 | Metric | Value |
 |---|---|
 | Pipeline completion (sample set) | 6/6 images, 0 crashes |
-| Robustness scenarios (`tests/run_scenarios.py`) | 10/10 pass, 0 crashes |
+| Robustness scenarios (`tests/run_scenarios.py`) | 11/11 pass, 0 crashes |
 | Latency | 0.6–1.7 s/image (Apple Silicon MPS) |
 | Trace completeness | every run logs all 4 envelope hand-offs per image |
 | Rejection correctness | 5/5 bad inputs rejected with clear reasons (corrupt, empty, tiny, oversized, text-as-jpg) |
