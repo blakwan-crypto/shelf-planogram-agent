@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Action and trace</title></head><body>
+<template>
+<style>
+@font-face{font-family:"EB Garamond";src:url("assets/fonts/EBGaramond-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+
+*{box-sizing:border-box}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background:#FAF9F5;color:#141413;font-family:Inter,Arial,sans-serif;container-type:size}
+.ground{position:absolute;inset:0;background:#FAF9F5}
+.grid{position:absolute;inset:0;opacity:.34;background-size:96px 96px;background-image:linear-gradient(to right,rgba(20,20,19,.08) 1px,transparent 1px),linear-gradient(to bottom,rgba(20,20,19,.08) 1px,transparent 1px)}
+.kicker{position:absolute;left:82px;top:68px;font:700 23px/1 "JetBrains Mono",monospace;letter-spacing:.16em;text-transform:uppercase;color:#141413}
+.kicker b{color:#CC785C;font-size:28px;margin-right:12px}
+.mono{font:400 24px/1.35 "JetBrains Mono",monospace;letter-spacing:.02em}
+.eyebrow{font:700 20px/1 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#CC785C}
+.display{font:400 92px/1.02 "EB Garamond",Georgia,serif;letter-spacing:-.025em}
+.lead{font:400 35px/1.25 Inter,Arial,sans-serif}
+.small{font:400 24px/1.35 Inter,Arial,sans-serif}
+.card{background:#EFE9DE;border:1px solid rgba(20,20,19,.2);border-radius:12px;box-shadow:0 1px 3px rgba(20,20,19,.08),0 4px 16px rgba(20,20,19,.04)}
+.navy{background:#181715;color:#FAF9F5;border:1px solid rgba(250,249,245,.18);border-radius:10px}
+.coral{color:#CC785C}
+.line{position:absolute;height:1px;background:rgba(20,20,19,.18);transform-origin:left center}
+.pill{display:inline-flex;align-items:center;padding:10px 16px;border-radius:999px;background:#CC785C;color:#FAF9F5;font:700 20px/1 "JetBrains Mono",monospace}
+.card .eyebrow{color:#9F503D}
+.fade{opacity:0}
+
+.trace-title{position:absolute;left:100px;top:92px}.trace-window{position:absolute;left:100px;top:190px;width:1000px;height:690px;padding:34px}.trace-row{padding:22px 0;border-bottom:1px solid rgba(250,249,245,.16);font:400 23px/1.2 "JetBrains Mono",monospace}.trace-row b{color:#CC785C}.trace-row small{display:block;color:rgba(250,249,245,.62);margin-top:8px}.work-card{position:absolute;right:110px;top:295px;width:610px;padding:36px;color:#141413}.work-card h2{font:400 53px/1 "EB Garamond",Georgia,serif;margin:16px 0 28px}.task{padding:16px 0;border-bottom:1px solid rgba(20,20,19,.18);font:400 23px/1.2 Inter}.task b{color:#CC785C;margin-right:12px}.receipt{position:absolute;right:130px;bottom:230px}
+</style>
+<div data-hf-id="hf-v9b7" id="root" data-composition-id="06-action-trace" data-start="0" data-width="1920" data-height="1080" data-duration="9.503">
+
+<div data-hf-id="hf-ygft" class="ground"></div><div data-hf-id="hf-kxq8" class="grid"></div>
+<div data-hf-id="hf-6ga4" class="trace-title kicker" id="f6-kicker"><b data-hf-id="hf-u3lo">✱</b>communication + audit / 06</div>
+<div data-hf-id="hf-2ceq" class="trace-window navy" id="f6-trace"><div data-hf-id="hf-xbk5" class="trace-row fade" id="f6-t1"><b data-hf-id="hf-gejt">Orchestrator</b> → ScannerAgent<small data-hf-id="hf-qik5">PreprocessResult · valid image</small></div><div data-hf-id="hf-h5u2" class="trace-row fade" id="f6-t2"><b data-hf-id="hf-rx6u">ScannerAgent</b> → AnalystAgent<small data-hf-id="hf-un9l">ShelfScan · 298 products</small></div><div data-hf-id="hf-bbsi" class="trace-row fade" id="f6-t3"><b data-hf-id="hf-n4kq">AnalystAgent</b> → TaskAgent<small data-hf-id="hf-jaqo">ComplianceReport · 4 verdict types</small></div><div data-hf-id="hf-kb1v" class="trace-row fade" id="f6-t4"><b data-hf-id="hf-r0bp">TaskAgent</b> → Orchestrator<small data-hf-id="hf-593n">WorkOrder · saved to disk</small></div></div>
+<div data-hf-id="hf-8f4i" class="work-card card fade" id="f6-work"><div data-hf-id="hf-75f9" class="eyebrow">saved output</div><h2 data-hf-id="hf-hrjq">Work order</h2><div data-hf-id="hf-dmsf" class="task"><b data-hf-id="hf-27a2">01</b>fill low-facing slot</div><div data-hf-id="hf-mn9b" class="task"><b data-hf-id="hf-2ll3">02</b>restock empty slot</div><div data-hf-id="hf-y6qy" class="task"><b data-hf-id="hf-2zw4">03</b>inspect photo evidence</div></div>
+<div data-hf-id="hf-tc0n" class="receipt mono fade" id="f6-receipt">results/traces/run.jsonl</div>
+
+</div>
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+
+tl.fromTo("#f6-kicker",{opacity:0,y:-18},{opacity:1,y:0,duration:.45,ease:"power3.out"},0);
+tl.fromTo(".trace-row",{opacity:0,y:24},{opacity:1,y:0,duration:.5,stagger:.7,ease:"power3.out"},.45);
+tl.fromTo("#f6-work",{opacity:0,scale:.94,y:24},{opacity:1,scale:1,y:0,duration:.7,ease:"power3.out"},5.3);
+tl.fromTo("#f6-receipt",{opacity:0,y:18},{opacity:1,y:0,duration:.5,ease:"power3.out"},7.0);
+window.__timelines["06-action-trace"]=tl;
+</script>
+</template></body></html>

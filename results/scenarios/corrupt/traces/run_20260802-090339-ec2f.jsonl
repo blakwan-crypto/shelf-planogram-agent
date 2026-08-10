@@ -1,0 +1,1 @@
+{"sender": "Orchestrator", "recipient": "ScannerAgent", "message_type": "RejectedInput", "payload": {"image_path": "/Users/aceboogie/Desktop/shelf-planogram-agent/data/scenarios/corrupt/corrupt.jpg", "reason": "corrupt or unreadable image (Truncated File Read)"}, "confidence": 1.0, "run_id": "run_20260802-090339-ec2f", "timestamp": 1785679419.886241}

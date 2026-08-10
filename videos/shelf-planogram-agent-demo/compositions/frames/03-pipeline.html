@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Pipeline</title></head><body>
+<template>
+<style>
+@font-face{font-family:"EB Garamond";src:url("assets/fonts/EBGaramond-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+
+*{box-sizing:border-box}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background:#FAF9F5;color:#141413;font-family:Inter,Arial,sans-serif;container-type:size}
+.ground{position:absolute;inset:0;background:#FAF9F5}
+.grid{position:absolute;inset:0;opacity:.34;background-size:96px 96px;background-image:linear-gradient(to right,rgba(20,20,19,.08) 1px,transparent 1px),linear-gradient(to bottom,rgba(20,20,19,.08) 1px,transparent 1px)}
+.kicker{position:absolute;left:82px;top:68px;font:700 23px/1 "JetBrains Mono",monospace;letter-spacing:.16em;text-transform:uppercase;color:#141413}
+.kicker b{color:#CC785C;font-size:28px;margin-right:12px}
+.mono{font:400 24px/1.35 "JetBrains Mono",monospace;letter-spacing:.02em}
+.eyebrow{font:700 20px/1 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#CC785C}
+.display{font:400 92px/1.02 "EB Garamond",Georgia,serif;letter-spacing:-.025em}
+.lead{font:400 35px/1.25 Inter,Arial,sans-serif}
+.small{font:400 24px/1.35 Inter,Arial,sans-serif}
+.card{background:#EFE9DE;border:1px solid rgba(20,20,19,.2);border-radius:12px;box-shadow:0 1px 3px rgba(20,20,19,.08),0 4px 16px rgba(20,20,19,.04)}
+.navy{background:#181715;color:#FAF9F5;border:1px solid rgba(250,249,245,.18);border-radius:10px}
+.coral{color:#CC785C}
+.line{position:absolute;height:1px;background:rgba(20,20,19,.18);transform-origin:left center}
+.pill{display:inline-flex;align-items:center;padding:10px 16px;border-radius:999px;background:#CC785C;color:#FAF9F5;font:700 20px/1 "JetBrains Mono",monospace}
+.card .eyebrow{color:#9F503D}
+.fade{opacity:0}
+
+.source{position:absolute;left:120px;top:420px;width:280px;height:180px;padding:26px}.source h2{font:400 42px/1 "EB Garamond",Georgia,serif;margin:18px 0 0}.source .mini-shelf{height:42px;border-bottom:2px solid #141413;display:flex;gap:8px;align-items:flex-end}.mini-shelf i{width:25px;background:#CC785C;border-radius:2px 2px 0 0}.mini-shelf i:nth-child(1){height:22px}.mini-shelf i:nth-child(2){height:35px}.mini-shelf i:nth-child(3){height:27px}.hub{position:absolute;left:830px;top:400px;width:260px;height:220px;text-align:center;padding-top:42px}.hub-mark{font:400 76px/1 "EB Garamond",Georgia,serif;color:#CC785C}.hub-label{font:700 22px/1 "JetBrains Mono",monospace;letter-spacing:.08em}.node{position:absolute;width:230px;height:112px;padding:22px;background:#EFE9DE;border:1px solid rgba(20,20,19,.2);border-radius:10px;font:700 23px/1.15 "JetBrains Mono",monospace}.node small{display:block;font:400 18px/1.2 Inter;margin-top:10px}.n1{left:500px;top:240px}.n2{left:840px;top:170px}.n3{left:1180px;top:240px}.n4{left:500px;top:690px}.n5{left:840px;top:770px}.n6{left:1180px;top:690px}.connector{position:absolute;inset:0;width:1920px;height:1080px;pointer-events:none}.conn{opacity:0}.conn line{stroke:#CC785C;stroke-width:2.5}.conn path{fill:#CC785C}.trace-badge{position:absolute;right:120px;top:75px}
+</style>
+<div data-hf-id="hf-94sw" id="root" data-composition-id="03-pipeline" data-start="0" data-width="1920" data-height="1080" data-duration="9.204">
+
+<div data-hf-id="hf-ygft" class="ground"></div><div data-hf-id="hf-kxq8" class="grid"></div>
+<div data-hf-id="hf-z3i9" class="kicker" id="f3-kicker"><b data-hf-id="hf-u3lo">✱</b>the pipeline / 03</div>
+<div data-hf-id="hf-19bm" class="source card fade" id="f3-source"><div data-hf-id="hf-5tgv" class="eyebrow">input</div><div data-hf-id="hf-8m7e" class="mini-shelf"><i data-hf-id="hf-wt6k"></i><i data-hf-id="hf-zeb8"></i><i data-hf-id="hf-y7e5"></i></div><h2 data-hf-id="hf-9e9v">one folder</h2></div>
+<div data-hf-id="hf-m2c4" class="hub card fade" id="f3-hub"><div data-hf-id="hf-avb0" class="hub-mark">✱</div><div data-hf-id="hf-01a4" class="hub-label">ORCHESTRATOR</div></div>
+<div data-hf-id="hf-nxep" class="node n1 fade" id="f3-n1">01 validate<small data-hf-id="hf-pny6">bad inputs stop safely</small></div><div data-hf-id="hf-u96j" class="node n2 fade" id="f3-n2">02 detect<small data-hf-id="hf-9eob">product locations</small></div><div data-hf-id="hf-il1a" class="node n3 fade" id="f3-n3">03 align<small data-hf-id="hf-70vb">row + slot bands</small></div><div data-hf-id="hf-hxi6" class="node n4 fade" id="f3-n4">04 reason<small data-hf-id="hf-8b2v">inspectable rules</small></div><div data-hf-id="hf-6dmx" class="node n5 fade" id="f3-n5">05 act<small data-hf-id="hf-efwl">work order</small></div><div data-hf-id="hf-z5ct" class="node n6 navy fade" id="f3-n6">06 trace<small data-hf-id="hf-4rvn">JSONL hand-off</small></div>
+<svg class="connector" viewBox="0 0 1920 1080" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><g class="conn"><line x1="400.0" y1="510.0" x2="830.0" y2="510.0"/><path d="M 830.0 510.0 L 814.0 517.0 L 814.0 503.0 Z"/></g><g class="conn"><line x1="705.3" y1="352.0" x2="830.0" y2="429.4"/><path d="M 830.0 429.4 L 812.7 426.9 L 820.1 415.0 Z"/></g><g class="conn"><line x1="956.0" y1="282.0" x2="958.1" y2="400.0"/><path d="M 958.1 400.0 L 950.8 384.1 L 964.8 383.9 Z"/></g><g class="conn"><line x1="1207.3" y1="352.0" x2="1090.0" y2="427.0"/><path d="M 1090.0 427.0 L 1099.7 412.4 L 1107.3 424.2 Z"/></g><g class="conn"><line x1="696.9" y1="690.0" x2="830.0" y2="598.9"/><path d="M 830.0 598.9 L 820.7 613.7 L 812.8 602.2 Z"/></g><g class="conn"><line x1="955.9" y1="770.0" x2="958.3" y2="620.0"/><path d="M 958.3 620.0 L 965.0 636.1 L 951.0 635.9 Z"/></g><g class="conn"><line x1="1215.5" y1="690.0" x2="1090.0" y2="601.6"/><path d="M 1090.0 601.6 L 1107.1 605.1 L 1099.0 616.5 Z"/></g></svg>
+<div data-hf-id="hf-ltbo" class="trace-badge mono fade" id="f3-trace">6 stages / 1 receipt</div>
+
+</div>
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+
+tl.fromTo("#f3-kicker",{opacity:0,y:-18},{opacity:1,y:0,duration:.45,ease:"power3.out"},0);
+tl.fromTo("#f3-source",{opacity:0,x:-45,y:25},{opacity:1,x:0,y:0,duration:.55,ease:"power3.out"},.45);
+tl.fromTo("#f3-hub",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.65,ease:"power3.out"},1.55);
+tl.fromTo(".node",{opacity:0,scale:.8,y:20},{opacity:1,scale:1,y:0,duration:.5,stagger:.22,ease:"power3.out"},2.2);
+tl.fromTo(".conn",{opacity:0},{opacity:1,duration:.5,stagger:.12,ease:"power2.out"},3.6);
+tl.fromTo("#f3-trace",{opacity:0,y:-12},{opacity:1,y:0,duration:.5,ease:"power3.out"},6.9);
+window.__timelines["03-pipeline"]=tl;
+</script>
+</template></body></html>

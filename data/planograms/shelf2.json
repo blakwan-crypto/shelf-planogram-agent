@@ -1,0 +1,123 @@
+{
+  "name": "shelf2",
+  "description": "Tuned for shelf2.jpg (1385x1405): three shelf levels (shelf boards visible at ~36% and ~68% of the image height). 8 equal slots per row. expected_facings = typical count per slot seen in the photo: 8 on the top shelf, 5 on the middle (its right half is genuinely sparser), 10 on the dense bottom shelf.",
+  "rows": [
+    {
+      "row_id": "r1",
+      "y_min": 0.05,
+      "y_max": 0.36,
+      "slots": [
+        {
+          "slot_id": "r1_s1",
+          "expected_facings": 8
+        },
+        {
+          "slot_id": "r1_s2",
+          "expected_facings": 8
+        },
+        {
+          "slot_id": "r1_s3",
+          "expected_facings": 8
+        },
+        {
+          "slot_id": "r1_s4",
+          "expected_facings": 8
+        },
+        {
+          "slot_id": "r1_s5",
+          "expected_facings": 8
+        },
+        {
+          "slot_id": "r1_s6",
+          "expected_facings": 8
+        },
+        {
+          "slot_id": "r1_s7",
+          "expected_facings": 8
+        },
+        {
+          "slot_id": "r1_s8",
+          "expected_facings": 8
+        }
+      ]
+    },
+    {
+      "row_id": "r2",
+      "y_min": 0.36,
+      "y_max": 0.68,
+      "slots": [
+        {
+          "slot_id": "r2_s1",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s2",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s3",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s4",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s5",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s6",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s7",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s8",
+          "expected_facings": 5
+        }
+      ]
+    },
+    {
+      "row_id": "r3",
+      "y_min": 0.68,
+      "y_max": 1.0,
+      "slots": [
+        {
+          "slot_id": "r3_s1",
+          "expected_facings": 10
+        },
+        {
+          "slot_id": "r3_s2",
+          "expected_facings": 10
+        },
+        {
+          "slot_id": "r3_s3",
+          "expected_facings": 10
+        },
+        {
+          "slot_id": "r3_s4",
+          "expected_facings": 10
+        },
+        {
+          "slot_id": "r3_s5",
+          "expected_facings": 10
+        },
+        {
+          "slot_id": "r3_s6",
+          "expected_facings": 10
+        },
+        {
+          "slot_id": "r3_s7",
+          "expected_facings": 10
+        },
+        {
+          "slot_id": "r3_s8",
+          "expected_facings": 10
+        }
+      ]
+    }
+  ]
+}

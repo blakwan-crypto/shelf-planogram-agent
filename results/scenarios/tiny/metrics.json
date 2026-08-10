@@ -1,0 +1,15 @@
+{
+  "run_id": "run_20260802-090348-8d39",
+  "images_total": 1,
+  "images_ok": 0,
+  "images_rejected": 1,
+  "task_success_rate": 0.0,
+  "avg_seconds_per_image": 0,
+  "per_image": [
+    {
+      "image": "tiny.jpg",
+      "status": "rejected",
+      "reason": "too small (48x36)"
+    }
+  ]
+}

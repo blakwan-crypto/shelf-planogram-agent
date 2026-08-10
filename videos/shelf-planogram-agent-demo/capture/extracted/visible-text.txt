@@ -1,0 +1,25 @@
+Shelf Planogram Compliance Agent — Demo Source Notes
+
+Author: Lakwan Bonsu — ITAI 1378, Summer 2026
+
+The project is a Tier 3 multi-agent computer vision system that inspects retail shelf photos, compares them against a planogram, and generates restocking work orders with a full audit trail.
+
+The problem: retail stores lose sales when shelf layouts drift from the planogram. Products can be out of stock, low on facings, or misplaced. Manual audits are slow and inconsistent.
+
+The pipeline:
+1. Preprocess and validate each incoming image.
+2. ScannerAgent detects generic product locations with a YOLO11n model trained on SKU-110K.
+3. AnalystAgent maps detections into planogram slots and applies inspectable rules: correct, low_facing, out_of_stock, or misplaced.
+4. TaskAgent turns the compliance report into prioritized restocking or investigation tasks and saves an annotated image and machine-readable work order.
+5. Orchestrator routes defined Envelope messages between agents and logs every hand-off to JSONL traces.
+
+The baseline deliberately uses rules first and does not require an LLM. The detector identifies product locations, not brand identity. Brand matching, OCR, and an optional LLM controller are future improvements.
+
+Real evidence:
+- Six sample images completed successfully.
+- Ten robustness scenarios passed with zero crashes.
+- The system produces annotated images, work orders, metrics, and traces.
+- Dense shelf detection exposed a hidden max_det=300 limit. Raising it to 1000 changed shelf2 from 300 detections to 909 and removed its false task flags.
+- Other honest limitations remain: unusual packaging, color casts, perspective foreshortening, and the lack of real out-of-stock photographs in the current sample set.
+
+The main takeaway: this agent does not just make a prediction. It turns visual evidence into an explainable action, and it leaves a trace showing how the decision was made.

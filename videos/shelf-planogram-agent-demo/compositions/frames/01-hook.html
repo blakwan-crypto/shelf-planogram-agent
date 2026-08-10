@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Hook</title></head><body>
+<template>
+<style>
+@font-face{font-family:"EB Garamond";src:url("assets/fonts/EBGaramond-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+
+*{box-sizing:border-box}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background:#FAF9F5;color:#141413;font-family:Inter,Arial,sans-serif;container-type:size}
+.ground{position:absolute;inset:0;background:#FAF9F5}
+.grid{position:absolute;inset:0;opacity:.34;background-size:96px 96px;background-image:linear-gradient(to right,rgba(20,20,19,.08) 1px,transparent 1px),linear-gradient(to bottom,rgba(20,20,19,.08) 1px,transparent 1px)}
+.kicker{position:absolute;left:82px;top:68px;font:700 23px/1 "JetBrains Mono",monospace;letter-spacing:.16em;text-transform:uppercase;color:#141413}
+.kicker b{color:#CC785C;font-size:28px;margin-right:12px}
+.mono{font:400 24px/1.35 "JetBrains Mono",monospace;letter-spacing:.02em}
+.eyebrow{font:700 20px/1 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#CC785C}
+.display{font:400 92px/1.02 "EB Garamond",Georgia,serif;letter-spacing:-.025em}
+.lead{font:400 35px/1.25 Inter,Arial,sans-serif}#f1-sub{position:absolute;left:220px;top:560px;max-width:1120px}
+.small{font:400 24px/1.35 Inter,Arial,sans-serif}
+.card{background:#EFE9DE;border:1px solid rgba(20,20,19,.2);border-radius:12px;box-shadow:0 1px 3px rgba(20,20,19,.08),0 4px 16px rgba(20,20,19,.04)}
+.navy{background:#181715;color:#FAF9F5;border:1px solid rgba(250,249,245,.18);border-radius:10px}
+.coral{color:#CC785C}
+.line{position:absolute;height:1px;background:rgba(20,20,19,.18);transform-origin:left center}
+.pill{display:inline-flex;align-items:center;padding:10px 16px;border-radius:999px;background:#CC785C;color:#FAF9F5;font:700 20px/1 "JetBrains Mono",monospace}
+.card .eyebrow{color:#9F503D}
+.fade{opacity:0}
+
+.hero-line{position:absolute;left:220px;top:285px;max-width:1120px}
+.hero-line span{display:block}
+.arrow-lock{position:absolute;left:220px;top:760px;display:flex;align-items:center;gap:28px;font:700 30px/1 "JetBrains Mono",monospace}
+.arrow-lock .arrow{font-size:58px;color:#CC785C}
+.rule{position:absolute;left:220px;top:730px;width:910px;height:1px;background:rgba(20,20,19,.2);transform-origin:left}
+</style>
+<div data-hf-id="hf-pywe" id="root" data-composition-id="01-hook" data-start="0" data-width="1920" data-height="1080" data-duration="7.177">
+
+<div data-hf-id="hf-ygft" class="ground"></div><div data-hf-id="hf-kxq8" class="grid"></div>
+<div data-hf-id="hf-76uc" class="kicker" id="f1-kicker"><b data-hf-id="hf-u3lo">✱</b>retail audit / 01</div>
+<div data-hf-id="hf-x63l" class="hero-line display" id="f1-hero"><span data-hf-id="hf-l2o0">A shelf photo</span><span data-hf-id="hf-qpwi">is not a work order.</span></div>
+<div data-hf-id="hf-z8ve" class="lead fade" id="f1-sub">Visual evidence becomes a task a store team can actually use.</div>
+<div data-hf-id="hf-f0qs" class="rule fade" id="f1-rule"></div>
+<div data-hf-id="hf-4of0" class="arrow-lock fade" id="f1-arrow"><span data-hf-id="hf-p4qn">photo</span><span data-hf-id="hf-v68i" class="arrow">→</span><span data-hf-id="hf-jk0c">work order</span></div>
+
+</div>
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+
+tl.fromTo("#f1-kicker",{opacity:0,y:-18},{opacity:1,y:0,duration:.45,ease:"power3.out"},0);
+tl.fromTo("#f1-hero",{opacity:0,y:38},{opacity:1,y:0,duration:.7,ease:"power3.out"},.35);
+tl.fromTo("#f1-sub",{opacity:0,y:24},{opacity:1,y:0,duration:.55,ease:"power3.out"},1.7);
+tl.fromTo("#f1-rule",{opacity:0,scaleX:0},{opacity:1,scaleX:1,duration:.5,ease:"power3.out"},3.6);
+tl.fromTo("#f1-arrow",{opacity:0,y:22,scale:.96},{opacity:1,y:0,scale:1,duration:.6,ease:"power3.out"},4.25);
+window.__timelines["01-hook"]=tl;
+</script>
+</template></body></html>

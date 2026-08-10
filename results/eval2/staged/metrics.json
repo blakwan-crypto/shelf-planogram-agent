@@ -1,0 +1,24 @@
+{
+  "run_id": "run_20260802-102510-eed0",
+  "images_total": 1,
+  "images_ok": 1,
+  "images_rejected": 0,
+  "task_success_rate": 1.0,
+  "avg_seconds_per_image": 0.92,
+  "per_image": [
+    {
+      "image": "shelf3_staged.jpg",
+      "status": "ok",
+      "detections": 280,
+      "mean_confidence": 0.5819,
+      "summary": {
+        "correct": 20,
+        "low_facing": 9,
+        "out_of_stock": 0,
+        "misplaced": 0
+      },
+      "tasks": 9,
+      "seconds": 0.92
+    }
+  ]
+}

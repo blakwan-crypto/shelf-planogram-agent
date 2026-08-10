@@ -1,0 +1,15 @@
+{
+  "run_id": "run_20260802-090345-2434",
+  "images_total": 1,
+  "images_ok": 0,
+  "images_rejected": 1,
+  "task_success_rate": 0.0,
+  "avg_seconds_per_image": 0,
+  "per_image": [
+    {
+      "image": "notes.jpg",
+      "status": "rejected",
+      "reason": "corrupt or unreadable image (cannot identify image file '/Users/aceboogie/Desktop/shelf-planogram-agent/data/scenarios/not_an_image/notes.jpg')"
+    }
+  ]
+}

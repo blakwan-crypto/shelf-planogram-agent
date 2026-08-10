@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Reasoning</title></head><body>
+<template>
+<style>
+@font-face{font-family:"EB Garamond";src:url("assets/fonts/EBGaramond-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+
+*{box-sizing:border-box}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background:#FAF9F5;color:#141413;font-family:Inter,Arial,sans-serif;container-type:size}
+.ground{position:absolute;inset:0;background:#FAF9F5}
+.grid{position:absolute;inset:0;opacity:.34;background-size:96px 96px;background-image:linear-gradient(to right,rgba(20,20,19,.08) 1px,transparent 1px),linear-gradient(to bottom,rgba(20,20,19,.08) 1px,transparent 1px)}
+.kicker{position:absolute;left:82px;top:68px;font:700 23px/1 "JetBrains Mono",monospace;letter-spacing:.16em;text-transform:uppercase;color:#141413}
+.kicker b{color:#CC785C;font-size:28px;margin-right:12px}
+.mono{font:400 24px/1.35 "JetBrains Mono",monospace;letter-spacing:.02em}
+.eyebrow{font:700 20px/1 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#CC785C}
+.display{font:400 92px/1.02 "EB Garamond",Georgia,serif;letter-spacing:-.025em}
+.lead{font:400 35px/1.25 Inter,Arial,sans-serif}
+.small{font:400 24px/1.35 Inter,Arial,sans-serif}
+.card{background:#EFE9DE;border:1px solid rgba(20,20,19,.2);border-radius:12px;box-shadow:0 1px 3px rgba(20,20,19,.08),0 4px 16px rgba(20,20,19,.04)}
+.navy{background:#181715;color:#FAF9F5;border:1px solid rgba(250,249,245,.18);border-radius:10px}
+.coral{color:#CC785C}
+.line{position:absolute;height:1px;background:rgba(20,20,19,.18);transform-origin:left center}
+.pill{display:inline-flex;align-items:center;padding:10px 16px;border-radius:999px;background:#CC785C;color:#FAF9F5;font:700 20px/1 "JetBrains Mono",monospace}
+.card .eyebrow{color:#9F503D}
+.fade{opacity:0}
+
+.reason-title{position:absolute;left:120px;top:128px;font:400 60px/1 "EB Garamond",Georgia,serif}.split{position:absolute;top:290px;width:730px;height:560px;padding:32px}.left{left:90px}.right{right:90px}.split h2{font:400 42px/1 "EB Garamond",Georgia,serif;margin:14px 0 22px}.slot-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.slot{height:74px;border:1px solid rgba(20,20,19,.3);background:#FAF9F5;border-radius:5px;padding:12px;font:700 18px/1 "JetBrains Mono",monospace}.slot b{display:block;color:#CC785C;font-size:15px;margin-top:11px}.rule-row{padding:19px 0;border-bottom:1px solid rgba(250,249,245,.18);font:400 24px/1 "JetBrains Mono",monospace;opacity:0}.rule-row span{float:right;color:#CC785C;font-weight:700}.mapping{position:absolute;left:810px;top:485px;width:300px;text-align:center;color:#CC785C;font:400 70px/1 "EB Garamond",Georgia,serif}
+</style>
+<div data-hf-id="hf-x3xv" id="root" data-composition-id="05-reasoning" data-start="0" data-width="1920" data-height="1080" data-duration="10.825">
+
+<div data-hf-id="hf-ygft" class="ground"></div><div data-hf-id="hf-kxq8" class="grid"></div>
+<div data-hf-id="hf-mf7c" class="kicker" id="f5-kicker"><b data-hf-id="hf-u3lo">✱</b>reasoning / 05</div>
+<div data-hf-id="hf-m22y" class="reason-title fade" id="f5-title">Evidence becomes a verdict.</div>
+<div data-hf-id="hf-oh7k" class="split card left fade" id="f5-detect"><div data-hf-id="hf-77ll" class="eyebrow">detections</div><h2 data-hf-id="hf-fcso">raw product locations</h2><div data-hf-id="hf-mrtx" class="slot-grid"><div data-hf-id="hf-b3n0" class="slot">box 01<b data-hf-id="hf-dqkf">x: 112</b></div><div data-hf-id="hf-5uqt" class="slot">box 02<b data-hf-id="hf-73jd">x: 226</b></div><div data-hf-id="hf-ab0y" class="slot">box 03<b data-hf-id="hf-b2kp">x: 341</b></div><div data-hf-id="hf-cak3" class="slot">box 04<b data-hf-id="hf-8k4u">x: 458</b></div><div data-hf-id="hf-cov4" class="slot">box 05<b data-hf-id="hf-k137">x: 574</b></div><div data-hf-id="hf-bhy1" class="slot">box 06<b data-hf-id="hf-f15s">x: 690</b></div><div data-hf-id="hf-bw92" class="slot">box 07<b data-hf-id="hf-234w">x: 805</b></div><div data-hf-id="hf-3gwn" class="slot">box 08<b data-hf-id="hf-6kdi">x: 920</b></div></div></div>
+<div data-hf-id="hf-mz1y" class="mapping fade" id="f5-map">→</div>
+<div data-hf-id="hf-xenn" class="split navy right fade" id="f5-rules"><div data-hf-id="hf-01ro" class="eyebrow">analyst agent</div><h2 data-hf-id="hf-r5od">planogram rules</h2><div data-hf-id="hf-6n4g" class="rule-row" id="f5-r1">correct <span data-hf-id="hf-l45w">25</span></div><div data-hf-id="hf-fy2a" class="rule-row" id="f5-r2">low-facing <span data-hf-id="hf-fsj9">6</span></div><div data-hf-id="hf-w449" class="rule-row" id="f5-r3">out-of-stock <span data-hf-id="hf-ikog">1</span></div><div data-hf-id="hf-tu2j" class="rule-row" id="f5-r4">misplaced <span data-hf-id="hf-i6df">0</span></div></div>
+
+</div>
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+
+tl.fromTo("#f5-kicker",{opacity:0,y:-18},{opacity:1,y:0,duration:.45,ease:"power3.out"},0);
+tl.fromTo("#f5-title",{opacity:0,y:28},{opacity:1,y:0,duration:.55,ease:"power3.out"},.35);
+tl.fromTo("#f5-detect",{opacity:0,x:-38},{opacity:1,x:0,duration:.6,ease:"power3.out"},1.0);
+tl.fromTo("#f5-rules",{opacity:0,x:38},{opacity:1,x:0,duration:.6,ease:"power3.out"},1.5);
+tl.fromTo("#f5-map",{opacity:0,scale:.8},{opacity:1,scale:1,duration:.55,ease:"power3.out"},3.2);
+tl.fromTo(".rule-row",{opacity:0,y:18},{opacity:1,y:0,duration:.45,stagger:.55,ease:"power3.out"},4.1);
+window.__timelines["05-reasoning"]=tl;
+</script>
+</template></body></html>

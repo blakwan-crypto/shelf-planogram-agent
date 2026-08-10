@@ -1,0 +1,22 @@
+{
+  "image_path": "/tmp/eval_s6/shelf6.jpg",
+  "tasks": [
+    {
+      "slot_id": "r1_s1",
+      "action": "restock",
+      "detail": "slot empty \u2014 expected 1 facings"
+    },
+    {
+      "slot_id": "r2_s2",
+      "action": "restock",
+      "detail": "slot empty \u2014 expected 4 facings"
+    },
+    {
+      "slot_id": "r3_s2",
+      "action": "restock",
+      "detail": "slot empty \u2014 expected 1 facings"
+    }
+  ],
+  "annotated_image": "results/eval/shelf6/images/shelf6_annotated.jpg",
+  "report_json": "results/eval/shelf6/tasks/shelf6_report.json"
+}

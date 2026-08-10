@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Problem</title></head><body>
+<template>
+<style>
+@font-face{font-family:"EB Garamond";src:url("assets/fonts/EBGaramond-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+
+*{box-sizing:border-box}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background:#FAF9F5;color:#141413;font-family:Inter,Arial,sans-serif;container-type:size}
+.ground{position:absolute;inset:0;background:#FAF9F5}
+.grid{position:absolute;inset:0;opacity:.34;background-size:96px 96px;background-image:linear-gradient(to right,rgba(20,20,19,.08) 1px,transparent 1px),linear-gradient(to bottom,rgba(20,20,19,.08) 1px,transparent 1px)}
+.kicker{position:absolute;left:82px;top:68px;font:700 23px/1 "JetBrains Mono",monospace;letter-spacing:.16em;text-transform:uppercase;color:#141413}
+.kicker b{color:#CC785C;font-size:28px;margin-right:12px}
+.mono{font:400 24px/1.35 "JetBrains Mono",monospace;letter-spacing:.02em}
+.eyebrow{font:700 20px/1 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#CC785C}
+.display{font:400 92px/1.02 "EB Garamond",Georgia,serif;letter-spacing:-.025em}
+.lead{font:400 35px/1.25 Inter,Arial,sans-serif}
+.small{font:400 24px/1.35 Inter,Arial,sans-serif}
+.card{background:#EFE9DE;border:1px solid rgba(20,20,19,.2);border-radius:12px;box-shadow:0 1px 3px rgba(20,20,19,.08),0 4px 16px rgba(20,20,19,.04)}
+.navy{background:#181715;color:#FAF9F5;border:1px solid rgba(250,249,245,.18);border-radius:10px}
+.coral{color:#CC785C}
+.line{position:absolute;height:1px;background:rgba(20,20,19,.18);transform-origin:left center}
+.pill{display:inline-flex;align-items:center;padding:10px 16px;border-radius:999px;background:#CC785C;color:#FAF9F5;font:700 20px/1 "JetBrains Mono",monospace}
+.card .eyebrow{color:#9F503D}
+.fade{opacity:0}
+
+.audit-card{position:absolute;width:410px;height:300px;padding:34px}
+.audit-card h2{font:400 48px/1 "EB Garamond",Georgia,serif;margin:20px 0 18px}
+.audit-card p{font-size:23px;line-height:1.35}
+#f2-photo{left:150px;top:300px}#f2-planogram{left:750px;top:220px}#f2-check{left:1290px;top:360px}
+.icon-shelf{height:74px;border:2px solid #141413;border-radius:6px;padding:10px;display:flex;gap:10px;align-items:flex-end;justify-content:center}.icon-shelf i{flex:1;max-width:76px;background:#CC785C;border-radius:3px 3px 0 0}.icon-shelf i:nth-child(1){height:38px}.icon-shelf i:nth-child(2){height:56px}.icon-shelf i:nth-child(3){height:44px}.icon-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.icon-grid i{height:34px;border:1px solid #141413;background:#FAF9F5}.checkline{border-bottom:1px solid rgba(20,20,19,.25);padding:12px 0;font:400 22px/1 "JetBrains Mono",monospace}.checkline b{color:#CC785C;margin-right:12px}.question{position:absolute;left:220px;top:780px;font:400 68px/1 "EB Garamond",Georgia,serif}.question em{font-style:italic;color:#CC785C}
+</style>
+<div data-hf-id="hf-9obz" id="root" data-composition-id="02-problem" data-start="0" data-width="1920" data-height="1080" data-duration="8.585">
+
+<div data-hf-id="hf-ygft" class="ground"></div><div data-hf-id="hf-kxq8" class="grid"></div>
+<div data-hf-id="hf-7s8p" class="kicker" id="f2-kicker"><b data-hf-id="hf-u3lo">✱</b>before the agent / 02</div>
+<div data-hf-id="hf-yoeh" class="audit-card card fade" id="f2-photo"><div data-hf-id="hf-xxig" class="eyebrow">evidence</div><h2 data-hf-id="hf-u7q5">shelf photo</h2><div data-hf-id="hf-ttmg" class="icon-shelf"><i data-hf-id="hf-wt6k"></i><i data-hf-id="hf-zeb8"></i><i data-hf-id="hf-y7e5"></i></div></div>
+<div data-hf-id="hf-o1e0" class="audit-card card fade" id="f2-planogram"><div data-hf-id="hf-5i2d" class="eyebrow">expected</div><h2 data-hf-id="hf-fxta">planogram</h2><div data-hf-id="hf-lq9g" class="icon-grid"><i data-hf-id="hf-ylp6"></i><i data-hf-id="hf-0l8b"></i><i data-hf-id="hf-0zjc"></i><i data-hf-id="hf-zsm9"></i><i data-hf-id="hf-06xa"></i><i data-hf-id="hf-26gf"></i><i data-hf-id="hf-2krg"></i><i data-hf-id="hf-oz7w"></i></div></div>
+<div data-hf-id="hf-29tp" class="audit-card card fade" id="f2-check"><div data-hf-id="hf-2jo8" class="eyebrow">human step</div><h2 data-hf-id="hf-iaal">checklist</h2><div data-hf-id="hf-6juv" class="checkline"><b data-hf-id="hf-nswc">□</b>compare by eye</div><div data-hf-id="hf-sylj" class="checkline"><b data-hf-id="hf-5smc">□</b>write a task</div></div>
+<div data-hf-id="hf-ozv4" class="question fade" id="f2-question">How do you <em data-hf-id="hf-mphl">reconcile</em> them?</div>
+
+</div>
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+
+tl.fromTo("#f2-kicker",{opacity:0,y:-18},{opacity:1,y:0,duration:.45,ease:"power3.out"},0);
+tl.fromTo("#f2-photo",{opacity:0,x:-80,y:20},{opacity:1,x:0,y:0,duration:.65,ease:"power3.out"},.45);
+tl.fromTo("#f2-planogram",{opacity:0,x:0,y:-60},{opacity:1,x:0,y:0,duration:.65,ease:"power3.out"},1.0);
+tl.fromTo("#f2-check",{opacity:0,x:80,y:40},{opacity:1,x:0,y:0,duration:.65,ease:"power3.out"},1.55);
+tl.fromTo("#f2-question",{opacity:0,y:32},{opacity:1,y:0,duration:.6,ease:"power3.out"},4.45);
+window.__timelines["02-problem"]=tl;
+</script>
+</template></body></html>

@@ -1,0 +1,275 @@
+{
+  "summary": {
+    "scenarios_total": 10,
+    "passed": 10,
+    "failed": 0,
+    "crashes": 0,
+    "generated_at": "2026-08-02T09:03:49"
+  },
+  "scenarios": [
+    {
+      "name": "blurry",
+      "expected": "ok",
+      "reason_contains": "",
+      "detections_max": "",
+      "note": "shelf3.jpg blurred with a 25x25 Gaussian kernel. The image is still a",
+      "run_id": "run_20260802-090337-856b",
+      "per_image": [
+        {
+          "image": "blurry.jpg",
+          "status": "ok",
+          "detections": 190,
+          "tasks": 12,
+          "seconds": 0.8,
+          "mean_confidence": 0.5462
+        }
+      ],
+      "ignored_by_design": [],
+      "images_total": 1,
+      "images_rejected": 0,
+      "images_processed": 1,
+      "total_detections": 190,
+      "runtime_seconds": 1.68,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    },
+    {
+      "name": "corrupt",
+      "expected": "rejected",
+      "reason_contains": "corrupt or unreadable",
+      "detections_max": "",
+      "note": "shelf3.jpg cut to its first 800 bytes \u2014 the JPEG header is intact but",
+      "run_id": "run_20260802-090339-ec2f",
+      "per_image": [
+        {
+          "image": "corrupt.jpg",
+          "status": "rejected",
+          "reason": "corrupt or unreadable image (Truncated File Read)",
+          "detections": null
+        }
+      ],
+      "ignored_by_design": [
+        "truncated_2000bytes.bin"
+      ],
+      "images_total": 1,
+      "images_rejected": 1,
+      "images_processed": 0,
+      "total_detections": 0,
+      "runtime_seconds": 0.73,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    },
+    {
+      "name": "dark",
+      "expected": "ok",
+      "reason_contains": "",
+      "detections_max": "",
+      "note": "shelf3.jpg at ~40% brightness. Valid image \u2014 expect fewer/weaker",
+      "run_id": "run_20260802-090340-871d",
+      "per_image": [
+        {
+          "image": "dark.jpg",
+          "status": "ok",
+          "detections": 284,
+          "tasks": 7,
+          "seconds": 0.9,
+          "mean_confidence": 0.5805
+        }
+      ],
+      "ignored_by_design": [],
+      "images_total": 1,
+      "images_rejected": 0,
+      "images_processed": 1,
+      "total_detections": 284,
+      "runtime_seconds": 1.77,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    },
+    {
+      "name": "empty",
+      "expected": "rejected",
+      "reason_contains": "corrupt or unreadable",
+      "detections_max": "",
+      "note": "A 0-byte file named empty.jpg. There is no image in it at all \u2014 Stage 2",
+      "run_id": "run_20260802-090341-f8d0",
+      "per_image": [
+        {
+          "image": "empty.jpg",
+          "status": "rejected",
+          "reason": "corrupt or unreadable image (cannot identify image file '/Users/aceboogie/Desktop/shelf-planogram-agent/data/scenarios/empty/empty.jpg')",
+          "detections": null
+        }
+      ],
+      "ignored_by_design": [],
+      "images_total": 1,
+      "images_rejected": 1,
+      "images_processed": 0,
+      "total_detections": 0,
+      "runtime_seconds": 0.75,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    },
+    {
+      "name": "low_confidence",
+      "expected": "ok",
+      "reason_contains": "",
+      "detections_max": "60",
+      "note": "shelf4.jpg (meringues on a supermarket shelf) is a known hard case:",
+      "run_id": "run_20260802-090342-3667",
+      "per_image": [
+        {
+          "image": "shelf4.jpg",
+          "status": "ok",
+          "detections": 14,
+          "tasks": 32,
+          "seconds": 0.6,
+          "mean_confidence": 0.4245
+        }
+      ],
+      "ignored_by_design": [],
+      "images_total": 1,
+      "images_rejected": 0,
+      "images_processed": 1,
+      "total_detections": 14,
+      "runtime_seconds": 1.45,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    },
+    {
+      "name": "non_shelf",
+      "expected": "ok",
+      "reason_contains": "",
+      "detections_max": "15",
+      "note": "Aerial photo of an empty parking lot (Wikimedia Commons). There are no",
+      "run_id": "run_20260802-090344-bb6e",
+      "per_image": [
+        {
+          "image": "parking_lot.jpg",
+          "status": "ok",
+          "detections": 0,
+          "tasks": 32,
+          "seconds": 0.7,
+          "mean_confidence": 0.0
+        }
+      ],
+      "ignored_by_design": [],
+      "images_total": 1,
+      "images_rejected": 0,
+      "images_processed": 1,
+      "total_detections": 0,
+      "runtime_seconds": 1.59,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    },
+    {
+      "name": "not_an_image",
+      "expected": "rejected",
+      "reason_contains": "corrupt or unreadable",
+      "detections_max": "",
+      "note": "notes.jpg is really a text file wearing a .jpg name \u2014 Stage 2 must",
+      "run_id": "run_20260802-090345-2434",
+      "per_image": [
+        {
+          "image": "notes.jpg",
+          "status": "rejected",
+          "reason": "corrupt or unreadable image (cannot identify image file '/Users/aceboogie/Desktop/shelf-planogram-agent/data/scenarios/not_an_image/notes.jpg')",
+          "detections": null
+        }
+      ],
+      "ignored_by_design": [
+        "notes.txt"
+      ],
+      "images_total": 1,
+      "images_rejected": 1,
+      "images_processed": 0,
+      "total_detections": 0,
+      "runtime_seconds": 0.76,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    },
+    {
+      "name": "oversized",
+      "expected": "rejected",
+      "reason_contains": "too large",
+      "detections_max": "",
+      "note": "shelf1.jpg upscaled to 8100px wide (9438px tall) \u2014 above the pipeline's",
+      "run_id": "run_20260802-090346-5e8d",
+      "per_image": [
+        {
+          "image": "oversized.jpg",
+          "status": "rejected",
+          "reason": "too large (8100x9437)",
+          "detections": null
+        }
+      ],
+      "ignored_by_design": [],
+      "images_total": 1,
+      "images_rejected": 1,
+      "images_processed": 0,
+      "total_detections": 0,
+      "runtime_seconds": 0.74,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    },
+    {
+      "name": "tilted",
+      "expected": "ok",
+      "reason_contains": "",
+      "detections_max": "",
+      "note": "shelf3.jpg rotated 15 degrees with white border fill. Valid image \u2014",
+      "run_id": "run_20260802-090347-7d77",
+      "per_image": [
+        {
+          "image": "tilted.jpg",
+          "status": "ok",
+          "detections": 212,
+          "tasks": 14,
+          "seconds": 0.9,
+          "mean_confidence": 0.5054
+        }
+      ],
+      "ignored_by_design": [],
+      "images_total": 1,
+      "images_rejected": 0,
+      "images_processed": 1,
+      "total_detections": 212,
+      "runtime_seconds": 1.68,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    },
+    {
+      "name": "tiny",
+      "expected": "rejected",
+      "reason_contains": "too small",
+      "detections_max": "",
+      "note": "shelf3.jpg resized to 48x36 pixels \u2014 below the pipeline's 64-pixel",
+      "run_id": "run_20260802-090348-8d39",
+      "per_image": [
+        {
+          "image": "tiny.jpg",
+          "status": "rejected",
+          "reason": "too small (48x36)",
+          "detections": null
+        }
+      ],
+      "ignored_by_design": [],
+      "images_total": 1,
+      "images_rejected": 1,
+      "images_processed": 0,
+      "total_detections": 0,
+      "runtime_seconds": 0.73,
+      "crashed": false,
+      "crash_detail": "",
+      "result": "PASS"
+    }
+  ]
+}

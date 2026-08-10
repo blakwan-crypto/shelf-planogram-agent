@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Model weights — download link in models/README.md (never commit weights)
+models/*.pt
+models/*.onnx
+
+# Secrets — copy .env.example to .env and fill in real values locally
+.env
+
+# macOS noise
+.DS_Store
+
+# Parallel-agent working files (not project content)
+.agent-tasks/
+.agent-logs/
+
+# Generated results stay local until curated for submission
+results/traces/*.jsonl
+
+# HyperFrames generated caches and review stills
+videos/**/.media/
+videos/**/.thumbnails/
+videos/**/snapshots/
+videos/**/renders/verify/
+

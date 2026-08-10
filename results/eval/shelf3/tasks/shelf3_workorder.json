@@ -1,0 +1,42 @@
+{
+  "image_path": "/tmp/eval_s3/shelf3.jpg",
+  "tasks": [
+    {
+      "slot_id": "r1_s1",
+      "action": "fill",
+      "detail": "3/5 facings present"
+    },
+    {
+      "slot_id": "r1_s2",
+      "action": "fill",
+      "detail": "2/5 facings present"
+    },
+    {
+      "slot_id": "r2_s1",
+      "action": "fill",
+      "detail": "4/6 facings present"
+    },
+    {
+      "slot_id": "r3_s2",
+      "action": "fill",
+      "detail": "3/5 facings present"
+    },
+    {
+      "slot_id": "r3_s3",
+      "action": "fill",
+      "detail": "3/5 facings present"
+    },
+    {
+      "slot_id": "r3_s8",
+      "action": "fill",
+      "detail": "3/5 facings present"
+    },
+    {
+      "slot_id": "r4_s5",
+      "action": "fill",
+      "detail": "2/5 facings present"
+    }
+  ],
+  "annotated_image": "results/eval/shelf3/images/shelf3_annotated.jpg",
+  "report_json": "results/eval/shelf3/tasks/shelf3_report.json"
+}

@@ -1,0 +1,6 @@
+{
+  "image_path": "/tmp/eval_s2/shelf2.jpg",
+  "tasks": [],
+  "annotated_image": "results/eval2/shelf2/images/shelf2_annotated.jpg",
+  "report_json": "results/eval2/shelf2/tasks/shelf2_report.json"
+}

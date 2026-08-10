@@ -1,0 +1,44 @@
+{
+  "name": "shelf4",
+  "description": "Tuned for shelf4.jpg (1280x853): this photo shows only a few large products on two levels (top of frame and the middle band are empty wall). Two rows, 3 wide slots each; a full slot of this width holds about 2 large products.",
+  "rows": [
+    {
+      "row_id": "r1",
+      "y_min": 0.15,
+      "y_max": 0.56,
+      "slots": [
+        {
+          "slot_id": "r1_s1",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r1_s2",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r1_s3",
+          "expected_facings": 2
+        }
+      ]
+    },
+    {
+      "row_id": "r2",
+      "y_min": 0.56,
+      "y_max": 0.99,
+      "slots": [
+        {
+          "slot_id": "r2_s1",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r2_s2",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r2_s3",
+          "expected_facings": 2
+        }
+      ]
+    }
+  ]
+}

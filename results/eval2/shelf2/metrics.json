@@ -1,0 +1,24 @@
+{
+  "run_id": "run_20260802-102506-513d",
+  "images_total": 1,
+  "images_ok": 1,
+  "images_rejected": 0,
+  "task_success_rate": 1.0,
+  "avg_seconds_per_image": 1.69,
+  "per_image": [
+    {
+      "image": "shelf2.jpg",
+      "status": "ok",
+      "detections": 909,
+      "mean_confidence": 0.4126,
+      "summary": {
+        "correct": 24,
+        "low_facing": 0,
+        "out_of_stock": 0,
+        "misplaced": 0
+      },
+      "tasks": 0,
+      "seconds": 1.69
+    }
+  ]
+}

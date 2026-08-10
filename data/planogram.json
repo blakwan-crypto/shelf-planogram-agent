@@ -1,0 +1,66 @@
+{
+  "name": "default-4x8-shelf",
+  "description": "Generic planogram: 4 shelf rows covering the full image height, 8 equal slots per row. Row bands are fractions of image height so one planogram fits any photo size. Tune expected_facings and bands per shelf once real photos are chosen.",
+  "rows": [
+    {
+      "row_id": "row_1_top",
+      "y_min": 0.0,
+      "y_max": 0.25,
+      "slots": [
+        {"slot_id": "r1_s1", "expected_facings": 5},
+        {"slot_id": "r1_s2", "expected_facings": 5},
+        {"slot_id": "r1_s3", "expected_facings": 5},
+        {"slot_id": "r1_s4", "expected_facings": 5},
+        {"slot_id": "r1_s5", "expected_facings": 5},
+        {"slot_id": "r1_s6", "expected_facings": 5},
+        {"slot_id": "r1_s7", "expected_facings": 5},
+        {"slot_id": "r1_s8", "expected_facings": 5}
+      ]
+    },
+    {
+      "row_id": "row_2",
+      "y_min": 0.25,
+      "y_max": 0.5,
+      "slots": [
+        {"slot_id": "r2_s1", "expected_facings": 5},
+        {"slot_id": "r2_s2", "expected_facings": 5},
+        {"slot_id": "r2_s3", "expected_facings": 5},
+        {"slot_id": "r2_s4", "expected_facings": 5},
+        {"slot_id": "r2_s5", "expected_facings": 5},
+        {"slot_id": "r2_s6", "expected_facings": 5},
+        {"slot_id": "r2_s7", "expected_facings": 5},
+        {"slot_id": "r2_s8", "expected_facings": 5}
+      ]
+    },
+    {
+      "row_id": "row_3",
+      "y_min": 0.5,
+      "y_max": 0.75,
+      "slots": [
+        {"slot_id": "r3_s1", "expected_facings": 5},
+        {"slot_id": "r3_s2", "expected_facings": 5},
+        {"slot_id": "r3_s3", "expected_facings": 5},
+        {"slot_id": "r3_s4", "expected_facings": 5},
+        {"slot_id": "r3_s5", "expected_facings": 5},
+        {"slot_id": "r3_s6", "expected_facings": 5},
+        {"slot_id": "r3_s7", "expected_facings": 5},
+        {"slot_id": "r3_s8", "expected_facings": 5}
+      ]
+    },
+    {
+      "row_id": "row_4_bottom",
+      "y_min": 0.75,
+      "y_max": 1.0,
+      "slots": [
+        {"slot_id": "r4_s1", "expected_facings": 5},
+        {"slot_id": "r4_s2", "expected_facings": 5},
+        {"slot_id": "r4_s3", "expected_facings": 5},
+        {"slot_id": "r4_s4", "expected_facings": 5},
+        {"slot_id": "r4_s5", "expected_facings": 5},
+        {"slot_id": "r4_s6", "expected_facings": 5},
+        {"slot_id": "r4_s7", "expected_facings": 5},
+        {"slot_id": "r4_s8", "expected_facings": 5}
+      ]
+    }
+  ]
+}

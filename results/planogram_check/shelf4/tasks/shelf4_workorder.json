@@ -1,0 +1,12 @@
+{
+  "image_path": "data/planograms/tmp_shelf4/shelf4.jpg",
+  "tasks": [
+    {
+      "slot_id": "r2_s2",
+      "action": "fill",
+      "detail": "1/2 facings present"
+    }
+  ],
+  "annotated_image": "results/planogram_check/shelf4/images/shelf4_annotated.jpg",
+  "report_json": "results/planogram_check/shelf4/tasks/shelf4_report.json"
+}

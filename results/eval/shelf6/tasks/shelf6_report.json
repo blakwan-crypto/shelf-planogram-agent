@@ -1,0 +1,54 @@
+{
+  "image_path": "/tmp/eval_s6/shelf6.jpg",
+  "slots": [
+    {
+      "slot_id": "r1_s1",
+      "row_id": "r1",
+      "expected_facings": 1,
+      "actual_facings": 0,
+      "status": "out_of_stock"
+    },
+    {
+      "slot_id": "r1_s2",
+      "row_id": "r1",
+      "expected_facings": 1,
+      "actual_facings": 1,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s1",
+      "row_id": "r2",
+      "expected_facings": 4,
+      "actual_facings": 5,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s2",
+      "row_id": "r2",
+      "expected_facings": 4,
+      "actual_facings": 0,
+      "status": "out_of_stock"
+    },
+    {
+      "slot_id": "r3_s1",
+      "row_id": "r3",
+      "expected_facings": 1,
+      "actual_facings": 1,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s2",
+      "row_id": "r3",
+      "expected_facings": 1,
+      "actual_facings": 0,
+      "status": "out_of_stock"
+    }
+  ],
+  "misplaced_count": 0,
+  "summary": {
+    "correct": 3,
+    "low_facing": 0,
+    "out_of_stock": 3,
+    "misplaced": 0
+  }
+}

@@ -1,0 +1,13 @@
+# Tell GitHub Linguist to ignore generated/output files so they
+# don't skew the repo's language statistics toward HTML.
+
+# Results are generated agent output, not source code
+results/**   linguist-generated=true
+results/**   linguist-vendored=true
+
+# Videos folder (captions, HTML wrappers, etc.)
+videos/**    linguist-generated=true
+videos/**    linguist-vendored=true
+
+# Notebooks — keep these counted as Python if present
+*.ipynb      linguist-detectable=true

@@ -1,0 +1,6 @@
+# Core CV + agent pipeline (pinned; tested on macOS Apple Silicon, Python 3.14)
+ultralytics==8.4.115
+torch==2.13.0
+opencv-python==5.0.0.93
+pillow==12.3.0
+numpy==2.5.1

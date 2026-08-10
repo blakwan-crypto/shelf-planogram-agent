@@ -1,0 +1,52 @@
+{
+  "image_path": "data/planograms/tmp_shelf5/shelf5.jpg",
+  "tasks": [
+    {
+      "slot_id": "r1_s1",
+      "action": "restock",
+      "detail": "slot empty \u2014 expected 2 facings"
+    },
+    {
+      "slot_id": "r2_s1",
+      "action": "restock",
+      "detail": "slot empty \u2014 expected 3 facings"
+    },
+    {
+      "slot_id": "r2_s6",
+      "action": "fill",
+      "detail": "2/3 facings present"
+    },
+    {
+      "slot_id": "r3_s1",
+      "action": "restock",
+      "detail": "slot empty \u2014 expected 3 facings"
+    },
+    {
+      "slot_id": "r3_s4",
+      "action": "fill",
+      "detail": "2/3 facings present"
+    },
+    {
+      "slot_id": "r3_s5",
+      "action": "fill",
+      "detail": "1/3 facings present"
+    },
+    {
+      "slot_id": "r3_s6",
+      "action": "fill",
+      "detail": "1/3 facings present"
+    },
+    {
+      "slot_id": "r4_s1",
+      "action": "restock",
+      "detail": "slot empty \u2014 expected 2 facings"
+    },
+    {
+      "slot_id": "r4_s3",
+      "action": "fill",
+      "detail": "1/2 facings present"
+    }
+  ],
+  "annotated_image": "results/planogram_check/shelf5/images/shelf5_annotated.jpg",
+  "report_json": "results/planogram_check/shelf5/tasks/shelf5_report.json"
+}

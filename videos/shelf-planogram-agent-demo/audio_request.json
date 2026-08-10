@@ -1,0 +1,45 @@
+{
+  "provider": "auto",
+  "speed": 1,
+  "lines": [
+    {
+      "id": "01",
+      "text": "A shelf photo shows what is there. It does not tell staff what to do. This agent closes that gap."
+    },
+    {
+      "id": "02",
+      "text": "The old audit is three disconnected things: a photo, a planogram, and a person trying to reconcile them by eye."
+    },
+    {
+      "id": "03",
+      "text": "Point the system at a folder of shelf images. Six stages take over: validate, detect, align, reason, act, and trace."
+    },
+    {
+      "id": "04",
+      "text": "First, preprocessing rejects bad inputs. Then ScannerAgent uses a SKU-110K-trained YOLO model to find product locations — not brand names."
+    },
+    {
+      "id": "05",
+      "text": "AnalystAgent maps those detections into planogram slots. Inspectable rules turn counts into correct, low-facing, out-of-stock, or misplaced."
+    },
+    {
+      "id": "06",
+      "text": "TaskAgent turns the report into a prioritized work order, saves photo evidence, and writes the hand-off to a JSONL trace."
+    },
+    {
+      "id": "07",
+      "text": "The system completed six sample images and ten robustness scenarios with zero crashes. Evaluation also found a hidden detector cap: shelf2 jumped from 300 to 909 detections after the fix, and its false flags disappeared."
+    },
+    {
+      "id": "08",
+      "text": "It is not brand recognition. Perspective, unusual packaging, and color casts still cause misses. And the current photos do not contain real stockouts, so true positive precision still needs staged data."
+    },
+    {
+      "id": "09",
+      "text": "That is the whole idea: pixels in, explainable action out, with the reasoning left behind. The repository is public, reproducible, and ready to inspect."
+    }
+  ],
+  "bgm": {
+    "mode": "none"
+  }
+}

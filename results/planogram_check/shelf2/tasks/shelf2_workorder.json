@@ -1,0 +1,22 @@
+{
+  "image_path": "data/planograms/tmp_shelf2/shelf2.jpg",
+  "tasks": [
+    {
+      "slot_id": "r1_s6",
+      "action": "fill",
+      "detail": "5/8 facings present"
+    },
+    {
+      "slot_id": "r2_s5",
+      "action": "fill",
+      "detail": "4/5 facings present"
+    },
+    {
+      "slot_id": "r2_s6",
+      "action": "fill",
+      "detail": "1/5 facings present"
+    }
+  ],
+  "annotated_image": "results/planogram_check/shelf2/images/shelf2_annotated.jpg",
+  "report_json": "results/planogram_check/shelf2/tasks/shelf2_report.json"
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Limits</title></head><body>
+<template>
+<style>
+@font-face{font-family:"EB Garamond";src:url("assets/fonts/EBGaramond-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+
+*{box-sizing:border-box}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background:#FAF9F5;color:#141413;font-family:Inter,Arial,sans-serif;container-type:size}
+.ground{position:absolute;inset:0;background:#FAF9F5}
+.grid{position:absolute;inset:0;opacity:.34;background-size:96px 96px;background-image:linear-gradient(to right,rgba(20,20,19,.08) 1px,transparent 1px),linear-gradient(to bottom,rgba(20,20,19,.08) 1px,transparent 1px)}
+.kicker{position:absolute;left:82px;top:68px;font:700 23px/1 "JetBrains Mono",monospace;letter-spacing:.16em;text-transform:uppercase;color:#141413}
+.kicker b{color:#CC785C;font-size:28px;margin-right:12px}
+.mono{font:400 24px/1.35 "JetBrains Mono",monospace;letter-spacing:.02em}
+.eyebrow{font:700 20px/1 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#CC785C}
+.display{font:400 92px/1.02 "EB Garamond",Georgia,serif;letter-spacing:-.025em}
+.lead{font:400 35px/1.25 Inter,Arial,sans-serif}
+.small{font:400 24px/1.35 Inter,Arial,sans-serif}
+.card{background:#EFE9DE;border:1px solid rgba(20,20,19,.2);border-radius:12px;box-shadow:0 1px 3px rgba(20,20,19,.08),0 4px 16px rgba(20,20,19,.04)}
+.navy{background:#181715;color:#FAF9F5;border:1px solid rgba(250,249,245,.18);border-radius:10px}
+.coral{color:#CC785C}
+.line{position:absolute;height:1px;background:rgba(20,20,19,.18);transform-origin:left center}
+.pill{display:inline-flex;align-items:center;padding:10px 16px;border-radius:999px;background:#CC785C;color:#FAF9F5;font:700 20px/1 "JetBrains Mono",monospace}
+.card .eyebrow{color:#9F503D}
+.fade{opacity:0}
+
+.limits-title{position:absolute;left:110px;top:115px;font:400 72px/1 "EB Garamond",Georgia,serif}.limit-card{position:absolute;top:330px;width:760px;height:470px;padding:38px}.left-limit{left:110px}.right-limit{right:110px;background:#181715;color:#FAF9F5;border-color:rgba(250,249,245,.18)}.limit-card h2{font:400 54px/1 "EB Garamond",Georgia,serif;margin:18px 0 30px}.limit-item{font:400 28px/1.25 Inter;margin:20px 0;padding-left:30px;position:relative}.limit-item:before{content:"";position:absolute;left:0;top:12px;width:12px;height:12px;border-radius:50%;background:#CC785C}.right-limit .limit-item:before{background:#C64545}.footer-note{position:absolute;left:110px;bottom:240px;font:400 24px/1.2 "JetBrains Mono",monospace;color:#5A5A5A}
+</style>
+<div data-hf-id="hf-m4hh" id="root" data-composition-id="08-limits" data-start="0" data-width="1920" data-height="1080" data-duration="15.177">
+
+<div data-hf-id="hf-ygft" class="ground"></div><div data-hf-id="hf-kxq8" class="grid"></div>
+<div data-hf-id="hf-io5t" class="kicker" id="f8-kicker"><b data-hf-id="hf-u3lo">✱</b>scope / honest limits</div>
+<div data-hf-id="hf-8xie" class="limits-title fade" id="f8-title">A useful baseline is honest about its edges.</div>
+<div data-hf-id="hf-7z8i" class="limit-card card left-limit fade" id="f8-can"><div data-hf-id="hf-ja9h" class="eyebrow">can claim</div><h2 data-hf-id="hf-ptpw">What the baseline demonstrates</h2><div data-hf-id="hf-9df7" class="limit-item">generic product locations</div><div data-hf-id="hf-16uu" class="limit-item">rules-first planogram reasoning</div><div data-hf-id="hf-ht5p" class="limit-item">saved work orders and traces</div></div>
+<div data-hf-id="hf-iaee" class="limit-card right-limit fade" id="f8-not"><div data-hf-id="hf-vrwg" class="eyebrow">not yet</div><h2 data-hf-id="hf-f53z">What still needs work</h2><div data-hf-id="hf-9ask" class="limit-item">brand-level recognition</div><div data-hf-id="hf-96yu" class="limit-item">perspective and unusual packaging</div><div data-hf-id="hf-dg4g" class="limit-item">real staged stockouts</div></div>
+<div data-hf-id="hf-qmph" class="footer-note fade" id="f8-note">documented failure is part of the result</div>
+
+</div>
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+
+tl.fromTo("#f8-kicker",{opacity:0,y:-18},{opacity:1,y:0,duration:.45,ease:"power3.out"},0);
+tl.fromTo("#f8-title",{opacity:0,y:26},{opacity:1,y:0,duration:.55,ease:"power3.out"},.4);
+tl.fromTo("#f8-can",{opacity:0,x:-45},{opacity:1,x:0,duration:.6,ease:"power3.out"},1.6);
+tl.fromTo("#f8-not",{opacity:0,x:45},{opacity:1,x:0,duration:.6,ease:"power3.out"},2.4);
+tl.fromTo("#f8-note",{opacity:0,y:15},{opacity:1,y:0,duration:.5,ease:"power3.out"},7.6);
+window.__timelines["08-limits"]=tl;
+</script>
+</template></body></html>

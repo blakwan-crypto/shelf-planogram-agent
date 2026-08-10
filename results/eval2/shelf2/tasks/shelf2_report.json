@@ -1,0 +1,180 @@
+{
+  "image_path": "/tmp/eval_s2/shelf2.jpg",
+  "slots": [
+    {
+      "slot_id": "r1_s1",
+      "row_id": "r1",
+      "expected_facings": 8,
+      "actual_facings": 22,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s2",
+      "row_id": "r1",
+      "expected_facings": 8,
+      "actual_facings": 30,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s3",
+      "row_id": "r1",
+      "expected_facings": 8,
+      "actual_facings": 31,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s4",
+      "row_id": "r1",
+      "expected_facings": 8,
+      "actual_facings": 35,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s5",
+      "row_id": "r1",
+      "expected_facings": 8,
+      "actual_facings": 47,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s6",
+      "row_id": "r1",
+      "expected_facings": 8,
+      "actual_facings": 55,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s7",
+      "row_id": "r1",
+      "expected_facings": 8,
+      "actual_facings": 44,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s8",
+      "row_id": "r1",
+      "expected_facings": 8,
+      "actual_facings": 49,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s1",
+      "row_id": "r2",
+      "expected_facings": 5,
+      "actual_facings": 59,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s2",
+      "row_id": "r2",
+      "expected_facings": 5,
+      "actual_facings": 24,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s3",
+      "row_id": "r2",
+      "expected_facings": 5,
+      "actual_facings": 46,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s4",
+      "row_id": "r2",
+      "expected_facings": 5,
+      "actual_facings": 25,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s5",
+      "row_id": "r2",
+      "expected_facings": 5,
+      "actual_facings": 27,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s6",
+      "row_id": "r2",
+      "expected_facings": 5,
+      "actual_facings": 24,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s7",
+      "row_id": "r2",
+      "expected_facings": 5,
+      "actual_facings": 38,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s8",
+      "row_id": "r2",
+      "expected_facings": 5,
+      "actual_facings": 37,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s1",
+      "row_id": "r3",
+      "expected_facings": 10,
+      "actual_facings": 47,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s2",
+      "row_id": "r3",
+      "expected_facings": 10,
+      "actual_facings": 43,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s3",
+      "row_id": "r3",
+      "expected_facings": 10,
+      "actual_facings": 42,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s4",
+      "row_id": "r3",
+      "expected_facings": 10,
+      "actual_facings": 47,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s5",
+      "row_id": "r3",
+      "expected_facings": 10,
+      "actual_facings": 33,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s6",
+      "row_id": "r3",
+      "expected_facings": 10,
+      "actual_facings": 39,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s7",
+      "row_id": "r3",
+      "expected_facings": 10,
+      "actual_facings": 31,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s8",
+      "row_id": "r3",
+      "expected_facings": 10,
+      "actual_facings": 34,
+      "status": "correct"
+    }
+  ],
+  "misplaced_count": 0,
+  "summary": {
+    "correct": 24,
+    "low_facing": 0,
+    "out_of_stock": 0,
+    "misplaced": 0
+  }
+}

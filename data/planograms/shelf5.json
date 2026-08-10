@@ -1,0 +1,114 @@
+{
+  "name": "shelf5",
+  "description": "Tuned for shelf5.jpg (1280x853): four rows matching the visible product levels. The left edge of the photo is plain wall, so the leftmost slot of each row reads out_of_stock - the planogram cannot exclude it because slots split each row evenly. 6 slots on the stocked rows (4 on the thin bottom row), expected_facings from observed density (2-3 per slot).",
+  "rows": [
+    {
+      "row_id": "r1",
+      "y_min": 0.0,
+      "y_max": 0.26,
+      "slots": [
+        {
+          "slot_id": "r1_s1",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r1_s2",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r1_s3",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r1_s4",
+          "expected_facings": 2
+        }
+      ]
+    },
+    {
+      "row_id": "r2",
+      "y_min": 0.32,
+      "y_max": 0.6,
+      "slots": [
+        {
+          "slot_id": "r2_s1",
+          "expected_facings": 3
+        },
+        {
+          "slot_id": "r2_s2",
+          "expected_facings": 3
+        },
+        {
+          "slot_id": "r2_s3",
+          "expected_facings": 3
+        },
+        {
+          "slot_id": "r2_s4",
+          "expected_facings": 3
+        },
+        {
+          "slot_id": "r2_s5",
+          "expected_facings": 3
+        },
+        {
+          "slot_id": "r2_s6",
+          "expected_facings": 3
+        }
+      ]
+    },
+    {
+      "row_id": "r3",
+      "y_min": 0.6,
+      "y_max": 0.88,
+      "slots": [
+        {
+          "slot_id": "r3_s1",
+          "expected_facings": 3
+        },
+        {
+          "slot_id": "r3_s2",
+          "expected_facings": 3
+        },
+        {
+          "slot_id": "r3_s3",
+          "expected_facings": 3
+        },
+        {
+          "slot_id": "r3_s4",
+          "expected_facings": 3
+        },
+        {
+          "slot_id": "r3_s5",
+          "expected_facings": 3
+        },
+        {
+          "slot_id": "r3_s6",
+          "expected_facings": 3
+        }
+      ]
+    },
+    {
+      "row_id": "r4",
+      "y_min": 0.88,
+      "y_max": 1.0,
+      "slots": [
+        {
+          "slot_id": "r4_s1",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r4_s2",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r4_s3",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r4_s4",
+          "expected_facings": 2
+        }
+      ]
+    }
+  ]
+}

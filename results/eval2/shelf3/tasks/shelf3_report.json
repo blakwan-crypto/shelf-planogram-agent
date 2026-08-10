@@ -1,0 +1,215 @@
+{
+  "image_path": "/tmp/eval_s3/shelf3.jpg",
+  "slots": [
+    {
+      "slot_id": "r1_s1",
+      "row_id": "r1",
+      "expected_facings": 5,
+      "actual_facings": 3,
+      "status": "low_facing"
+    },
+    {
+      "slot_id": "r1_s2",
+      "row_id": "r1",
+      "expected_facings": 5,
+      "actual_facings": 2,
+      "status": "low_facing"
+    },
+    {
+      "slot_id": "r1_s3",
+      "row_id": "r1",
+      "expected_facings": 5,
+      "actual_facings": 5,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s4",
+      "row_id": "r1",
+      "expected_facings": 5,
+      "actual_facings": 8,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s5",
+      "row_id": "r1",
+      "expected_facings": 5,
+      "actual_facings": 10,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s6",
+      "row_id": "r1",
+      "expected_facings": 5,
+      "actual_facings": 12,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s7",
+      "row_id": "r1",
+      "expected_facings": 5,
+      "actual_facings": 18,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r1_s8",
+      "row_id": "r1",
+      "expected_facings": 5,
+      "actual_facings": 8,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s1",
+      "row_id": "r2",
+      "expected_facings": 6,
+      "actual_facings": 4,
+      "status": "low_facing"
+    },
+    {
+      "slot_id": "r2_s2",
+      "row_id": "r2",
+      "expected_facings": 6,
+      "actual_facings": 6,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s3",
+      "row_id": "r2",
+      "expected_facings": 6,
+      "actual_facings": 6,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s4",
+      "row_id": "r2",
+      "expected_facings": 6,
+      "actual_facings": 9,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s5",
+      "row_id": "r2",
+      "expected_facings": 6,
+      "actual_facings": 12,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s6",
+      "row_id": "r2",
+      "expected_facings": 6,
+      "actual_facings": 16,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s7",
+      "row_id": "r2",
+      "expected_facings": 6,
+      "actual_facings": 31,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r2_s8",
+      "row_id": "r2",
+      "expected_facings": 6,
+      "actual_facings": 14,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s1",
+      "row_id": "r3",
+      "expected_facings": 5,
+      "actual_facings": 5,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s2",
+      "row_id": "r3",
+      "expected_facings": 5,
+      "actual_facings": 3,
+      "status": "low_facing"
+    },
+    {
+      "slot_id": "r3_s3",
+      "row_id": "r3",
+      "expected_facings": 5,
+      "actual_facings": 3,
+      "status": "low_facing"
+    },
+    {
+      "slot_id": "r3_s4",
+      "row_id": "r3",
+      "expected_facings": 5,
+      "actual_facings": 10,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s5",
+      "row_id": "r3",
+      "expected_facings": 5,
+      "actual_facings": 12,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s6",
+      "row_id": "r3",
+      "expected_facings": 5,
+      "actual_facings": 20,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s7",
+      "row_id": "r3",
+      "expected_facings": 5,
+      "actual_facings": 23,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r3_s8",
+      "row_id": "r3",
+      "expected_facings": 5,
+      "actual_facings": 3,
+      "status": "low_facing"
+    },
+    {
+      "slot_id": "r4_s1",
+      "row_id": "r4",
+      "expected_facings": 5,
+      "actual_facings": 9,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r4_s2",
+      "row_id": "r4",
+      "expected_facings": 5,
+      "actual_facings": 13,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r4_s3",
+      "row_id": "r4",
+      "expected_facings": 5,
+      "actual_facings": 17,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r4_s4",
+      "row_id": "r4",
+      "expected_facings": 5,
+      "actual_facings": 14,
+      "status": "correct"
+    },
+    {
+      "slot_id": "r4_s5",
+      "row_id": "r4",
+      "expected_facings": 5,
+      "actual_facings": 2,
+      "status": "low_facing"
+    }
+  ],
+  "misplaced_count": 0,
+  "summary": {
+    "correct": 22,
+    "low_facing": 7,
+    "out_of_stock": 0,
+    "misplaced": 0
+  }
+}

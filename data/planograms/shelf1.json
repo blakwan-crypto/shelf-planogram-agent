@@ -1,0 +1,263 @@
+{
+  "name": "shelf1",
+  "description": "Tuned for shelf1.jpg (1430x1666): a tall display whose products sit on many narrow levels. Rows 1-5 split the dense upper half into 5 levels (8 slots each). Rows 6-7 cover the sparser lower shelves with wider slots (6 each). expected_facings set from observed density: ~5 per slot on the dense rows, ~2 on the lower shelves (the detector caps at 300 boxes, so lower shelves read light).",
+  "rows": [
+    {
+      "row_id": "r1",
+      "y_min": 0.0,
+      "y_max": 0.1,
+      "slots": [
+        {
+          "slot_id": "r1_s1",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s2",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s3",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s4",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s5",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s6",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s7",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s8",
+          "expected_facings": 5
+        }
+      ]
+    },
+    {
+      "row_id": "r2",
+      "y_min": 0.1,
+      "y_max": 0.16,
+      "slots": [
+        {
+          "slot_id": "r2_s1",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s2",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s3",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s4",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s5",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s6",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s7",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r2_s8",
+          "expected_facings": 5
+        }
+      ]
+    },
+    {
+      "row_id": "r3",
+      "y_min": 0.16,
+      "y_max": 0.24,
+      "slots": [
+        {
+          "slot_id": "r3_s1",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s2",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s3",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s4",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s5",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s6",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s7",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s8",
+          "expected_facings": 5
+        }
+      ]
+    },
+    {
+      "row_id": "r4",
+      "y_min": 0.24,
+      "y_max": 0.34,
+      "slots": [
+        {
+          "slot_id": "r4_s1",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s2",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s3",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s4",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s5",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s6",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s7",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s8",
+          "expected_facings": 5
+        }
+      ]
+    },
+    {
+      "row_id": "r5",
+      "y_min": 0.34,
+      "y_max": 0.53,
+      "slots": [
+        {
+          "slot_id": "r5_s1",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r5_s2",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r5_s3",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r5_s4",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r5_s5",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r5_s6",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r5_s7",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r5_s8",
+          "expected_facings": 5
+        }
+      ]
+    },
+    {
+      "row_id": "r6",
+      "y_min": 0.6,
+      "y_max": 0.84,
+      "slots": [
+        {
+          "slot_id": "r6_s1",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r6_s2",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r6_s3",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r6_s4",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r6_s5",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r6_s6",
+          "expected_facings": 2
+        }
+      ]
+    },
+    {
+      "row_id": "r7",
+      "y_min": 0.84,
+      "y_max": 1.0,
+      "slots": [
+        {
+          "slot_id": "r7_s1",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r7_s2",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r7_s3",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r7_s4",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r7_s5",
+          "expected_facings": 2
+        },
+        {
+          "slot_id": "r7_s6",
+          "expected_facings": 2
+        }
+      ]
+    }
+  ]
+}

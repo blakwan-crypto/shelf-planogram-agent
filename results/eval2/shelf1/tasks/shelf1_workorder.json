@@ -1,0 +1,17 @@
+{
+  "image_path": "/tmp/eval_s1/shelf1.jpg",
+  "tasks": [
+    {
+      "slot_id": "r4_s1",
+      "action": "fill",
+      "detail": "4/5 facings present"
+    },
+    {
+      "slot_id": "r4_s5",
+      "action": "fill",
+      "detail": "2/5 facings present"
+    }
+  ],
+  "annotated_image": "results/eval2/shelf1/images/shelf1_annotated.jpg",
+  "report_json": "results/eval2/shelf1/tasks/shelf1_report.json"
+}

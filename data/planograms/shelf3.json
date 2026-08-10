@@ -1,0 +1,150 @@
+{
+  "name": "shelf3",
+  "description": "Tuned for shelf3.jpg (1280x960): four rows. The top row stops at 27% (below it is a shelf gap). Rows 2-3 cover the middle shelves. The bottom row ends at 99% and uses 5 wider slots so the photo's bottom-right corner - which is FLOOR, not shelf - does not become an out_of_stock slot (this is the fix for the bogus flag the default grid produced).",
+  "rows": [
+    {
+      "row_id": "r1",
+      "y_min": 0.0,
+      "y_max": 0.27,
+      "slots": [
+        {
+          "slot_id": "r1_s1",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s2",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s3",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s4",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s5",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s6",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s7",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r1_s8",
+          "expected_facings": 5
+        }
+      ]
+    },
+    {
+      "row_id": "r2",
+      "y_min": 0.28,
+      "y_max": 0.5,
+      "slots": [
+        {
+          "slot_id": "r2_s1",
+          "expected_facings": 6
+        },
+        {
+          "slot_id": "r2_s2",
+          "expected_facings": 6
+        },
+        {
+          "slot_id": "r2_s3",
+          "expected_facings": 6
+        },
+        {
+          "slot_id": "r2_s4",
+          "expected_facings": 6
+        },
+        {
+          "slot_id": "r2_s5",
+          "expected_facings": 6
+        },
+        {
+          "slot_id": "r2_s6",
+          "expected_facings": 6
+        },
+        {
+          "slot_id": "r2_s7",
+          "expected_facings": 6
+        },
+        {
+          "slot_id": "r2_s8",
+          "expected_facings": 6
+        }
+      ]
+    },
+    {
+      "row_id": "r3",
+      "y_min": 0.5,
+      "y_max": 0.72,
+      "slots": [
+        {
+          "slot_id": "r3_s1",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s2",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s3",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s4",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s5",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s6",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s7",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r3_s8",
+          "expected_facings": 5
+        }
+      ]
+    },
+    {
+      "row_id": "r4",
+      "y_min": 0.72,
+      "y_max": 0.99,
+      "slots": [
+        {
+          "slot_id": "r4_s1",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s2",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s3",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s4",
+          "expected_facings": 5
+        },
+        {
+          "slot_id": "r4_s5",
+          "expected_facings": 5
+        }
+      ]
+    }
+  ]
+}

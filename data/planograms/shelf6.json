@@ -1,0 +1,51 @@
+{
+  "name": "shelf6",
+  "description": "Tuned for shelf6.jpg (1280x960): the detector found only 7 products, all in the top half of the frame; the rest of the photo appears to be background/other aisles. Rows only cover the three visible product levels (0-11%, 12-36%, 37-51%) with 2 wide slots each, so the empty bottom half is not turned into slots at all (default grid flagged 26 out_of_stock there).",
+  "rows": [
+    {
+      "row_id": "r1",
+      "y_min": 0.0,
+      "y_max": 0.11,
+      "slots": [
+        {
+          "slot_id": "r1_s1",
+          "expected_facings": 1
+        },
+        {
+          "slot_id": "r1_s2",
+          "expected_facings": 1
+        }
+      ]
+    },
+    {
+      "row_id": "r2",
+      "y_min": 0.12,
+      "y_max": 0.36,
+      "slots": [
+        {
+          "slot_id": "r2_s1",
+          "expected_facings": 4
+        },
+        {
+          "slot_id": "r2_s2",
+          "expected_facings": 4
+        }
+      ]
+    },
+    {
+      "row_id": "r3",
+      "y_min": 0.37,
+      "y_max": 0.51,
+      "slots": [
+        {
+          "slot_id": "r3_s1",
+          "expected_facings": 1
+        },
+        {
+          "slot_id": "r3_s2",
+          "expected_facings": 1
+        }
+      ]
+    }
+  ]
+}

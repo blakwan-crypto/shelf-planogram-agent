@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Perception</title></head><body>
+<template>
+<style>
+@font-face{font-family:"EB Garamond";src:url("assets/fonts/EBGaramond-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:Inter;src:url("assets/fonts/Inter-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-400.woff2") format("woff2");font-weight:400;font-style:normal;font-display:block}
+@font-face{font-family:"JetBrains Mono";src:url("assets/fonts/JetBrainsMono-700.woff2") format("woff2");font-weight:700;font-style:normal;font-display:block}
+
+*{box-sizing:border-box}
+#root{position:absolute;inset:0;width:1920px;height:1080px;overflow:hidden;background:#FAF9F5;color:#141413;font-family:Inter,Arial,sans-serif;container-type:size}
+.ground{position:absolute;inset:0;background:#FAF9F5}
+.grid{position:absolute;inset:0;opacity:.34;background-size:96px 96px;background-image:linear-gradient(to right,rgba(20,20,19,.08) 1px,transparent 1px),linear-gradient(to bottom,rgba(20,20,19,.08) 1px,transparent 1px)}
+.kicker{position:absolute;left:82px;top:68px;font:700 23px/1 "JetBrains Mono",monospace;letter-spacing:.16em;text-transform:uppercase;color:#141413}
+.kicker b{color:#CC785C;font-size:28px;margin-right:12px}
+.mono{font:400 24px/1.35 "JetBrains Mono",monospace;letter-spacing:.02em}
+.eyebrow{font:700 20px/1 "JetBrains Mono",monospace;letter-spacing:.14em;text-transform:uppercase;color:#CC785C}
+.display{font:400 92px/1.02 "EB Garamond",Georgia,serif;letter-spacing:-.025em}
+.lead{font:400 35px/1.25 Inter,Arial,sans-serif}
+.small{font:400 24px/1.35 Inter,Arial,sans-serif}
+.card{background:#EFE9DE;border:1px solid rgba(20,20,19,.2);border-radius:12px;box-shadow:0 1px 3px rgba(20,20,19,.08),0 4px 16px rgba(20,20,19,.04)}
+.navy{background:#181715;color:#FAF9F5;border:1px solid rgba(250,249,245,.18);border-radius:10px}
+.coral{color:#CC785C}
+.line{position:absolute;height:1px;background:rgba(20,20,19,.18);transform-origin:left center}
+.pill{display:inline-flex;align-items:center;padding:10px 16px;border-radius:999px;background:#CC785C;color:#FAF9F5;font:700 20px/1 "JetBrains Mono",monospace}
+.card .eyebrow{color:#9F503D}
+.fade{opacity:0}
+
+.stage-title{position:absolute;left:120px;top:175px;font:400 62px/1 "EB Garamond",Georgia,serif}.scan-panel{position:absolute;right:120px;top:180px;width:420px;padding:28px}.scan-panel h2{font:400 42px/1 "EB Garamond",Georgia,serif;margin:16px 0}.status{padding:14px 0;border-top:1px solid rgba(250,249,245,.2);font-size:21px}.status strong{color:#CC785C}.shelf-scene{position:absolute;left:120px;top:340px;width:1190px;height:500px;background:#EFE9DE;border:1px solid rgba(20,20,19,.2);border-radius:10px;padding:38px 45px}.shelf-row{height:108px;border-bottom:10px solid #141413}.product{position:absolute;width:120px;border-radius:4px 4px 0 0}.p-a{background:#CC785C}.p-b{background:#ECE3D4;border:2px solid #141413}.detbox{position:absolute;border:2px solid #CC785C;border-radius:4px;opacity:0}.scope{position:absolute;left:120px;bottom:250px;font:700 22px/1 "JetBrains Mono",monospace}.scope b{color:#CC785C}
+</style>
+<div data-hf-id="hf-x5jb" id="root" data-composition-id="04-perception" data-start="0" data-width="1920" data-height="1080" data-duration="12.809">
+
+<div data-hf-id="hf-ygft" class="ground"></div><div data-hf-id="hf-kxq8" class="grid"></div>
+<div data-hf-id="hf-hinf" class="kicker" id="f4-kicker"><b data-hf-id="hf-u3lo">✱</b>perception / 04</div>
+<div data-hf-id="hf-8gfh" class="stage-title fade" id="f4-title">Find where the products are.</div>
+<div class="shelf-scene fade" id="f4-shelf"><div class="shelf-row"><i class="product p-a" style="left:165px;top:66px;height:70px"></i><i class="product p-b" style="left:313px;top:48px;height:88px"></i><i class="product p-a" style="left:461px;top:66px;height:70px"></i><i class="product p-b" style="left:609px;top:48px;height:88px"></i><i class="product p-a" style="left:757px;top:66px;height:70px"></i><i class="product p-b" style="left:905px;top:48px;height:88px"></i></div><div class="shelf-row"><i class="product p-a" style="left:165px;top:174px;height:70px"></i><i class="product p-b" style="left:313px;top:156px;height:88px"></i><i class="product p-a" style="left:461px;top:174px;height:70px"></i><i class="product p-b" style="left:609px;top:156px;height:88px"></i><i class="product p-a" style="left:757px;top:174px;height:70px"></i><i class="product p-b" style="left:905px;top:156px;height:88px"></i></div><div class="shelf-row"><i class="product p-a" style="left:165px;top:282px;height:70px"></i><i class="product p-b" style="left:313px;top:264px;height:88px"></i><i class="product p-a" style="left:461px;top:282px;height:70px"></i><i class="product p-b" style="left:609px;top:264px;height:88px"></i><i class="product p-a" style="left:757px;top:282px;height:70px"></i><i class="product p-b" style="left:905px;top:264px;height:88px"></i></div><div class="detbox" style="left:165px;top:58px;width:120px;height:86px"></div><div class="detbox" style="left:313px;top:40px;width:120px;height:104px"></div><div class="detbox" style="left:461px;top:58px;width:120px;height:86px"></div><div class="detbox" style="left:609px;top:40px;width:120px;height:104px"></div><div class="detbox" style="left:757px;top:58px;width:120px;height:86px"></div><div class="detbox" style="left:905px;top:40px;width:120px;height:104px"></div><div class="detbox" style="left:165px;top:166px;width:120px;height:86px"></div><div class="detbox" style="left:313px;top:148px;width:120px;height:104px"></div><div class="detbox" style="left:461px;top:166px;width:120px;height:86px"></div><div class="detbox" style="left:609px;top:148px;width:120px;height:104px"></div><div class="detbox" style="left:757px;top:166px;width:120px;height:86px"></div><div class="detbox" style="left:905px;top:148px;width:120px;height:104px"></div></div>
+<div data-hf-id="hf-l1el" class="scan-panel navy fade" id="f4-panel"><div data-hf-id="hf-7y8o" class="eyebrow">scanner agent</div><h2 data-hf-id="hf-9y95" id="f4-status">validating image</h2><div data-hf-id="hf-v8n6" class="status">input <strong data-hf-id="hf-gcnr">1280×960</strong></div><div data-hf-id="hf-d4ob" class="status">model <strong data-hf-id="hf-08g3">YOLO11 / SKU-110K</strong></div><div data-hf-id="hf-bx8a" class="status">scope <strong data-hf-id="hf-7h6f">locations, not brands</strong></div></div>
+<div data-hf-id="hf-kqcz" class="scope" id="f4-scope">ShelfScan <b data-hf-id="hf-qmvp">→</b> AnalystAgent</div>
+
+</div>
+<script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+
+tl.fromTo("#f4-kicker",{opacity:0,y:-18},{opacity:1,y:0,duration:.45,ease:"power3.out"},0);
+tl.fromTo("#f4-title",{opacity:0,y:28},{opacity:1,y:0,duration:.55,ease:"power3.out"},.45);
+tl.fromTo("#f4-shelf",{opacity:0,scale:.97},{opacity:1,scale:1,duration:.6,ease:"power3.out"},1.0);
+tl.fromTo("#f4-panel",{opacity:0,x:35},{opacity:1,x:0,duration:.6,ease:"power3.out"},2.0);
+tl.to("#f4-status",{color:"#CC785C",duration:.35},3.1);
+tl.fromTo(".detbox",{opacity:0,scale:.86},{opacity:1,scale:1,duration:.35,stagger:.18,ease:"power3.out"},3.35);
+tl.to("#f4-status",{textContent:"found product locations",duration:.1},5.7);
+tl.fromTo("#f4-scope",{opacity:0,y:18},{opacity:1,y:0,duration:.55,ease:"power3.out"},8.9);
+window.__timelines["04-perception"]=tl;
+</script>
+</template></body></html>

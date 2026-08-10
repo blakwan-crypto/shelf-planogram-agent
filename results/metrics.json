@@ -1,0 +1,94 @@
+{
+  "run_id": "run_20260802-082956-475c",
+  "images_total": 6,
+  "images_ok": 6,
+  "images_rejected": 0,
+  "task_success_rate": 1.0,
+  "avg_seconds_per_image": 0.8,
+  "per_image": [
+    {
+      "image": "shelf1.jpg",
+      "status": "ok",
+      "detections": 300,
+      "mean_confidence": 0.6783,
+      "summary": {
+        "correct": 16,
+        "low_facing": 16,
+        "out_of_stock": 0,
+        "misplaced": 0
+      },
+      "tasks": 16,
+      "seconds": 3.38
+    },
+    {
+      "image": "shelf2.jpg",
+      "status": "ok",
+      "detections": 300,
+      "mean_confidence": 0.5609,
+      "summary": {
+        "correct": 27,
+        "low_facing": 5,
+        "out_of_stock": 0,
+        "misplaced": 0
+      },
+      "tasks": 5,
+      "seconds": 0.45
+    },
+    {
+      "image": "shelf3.jpg",
+      "status": "ok",
+      "detections": 298,
+      "mean_confidence": 0.5789,
+      "summary": {
+        "correct": 25,
+        "low_facing": 6,
+        "out_of_stock": 1,
+        "misplaced": 0
+      },
+      "tasks": 7,
+      "seconds": 0.45
+    },
+    {
+      "image": "shelf4.jpg",
+      "status": "ok",
+      "detections": 14,
+      "mean_confidence": 0.4245,
+      "summary": {
+        "correct": 0,
+        "low_facing": 11,
+        "out_of_stock": 21,
+        "misplaced": 0
+      },
+      "tasks": 32,
+      "seconds": 0.23
+    },
+    {
+      "image": "shelf5.jpg",
+      "status": "ok",
+      "detections": 60,
+      "mean_confidence": 0.5038,
+      "summary": {
+        "correct": 3,
+        "low_facing": 20,
+        "out_of_stock": 9,
+        "misplaced": 0
+      },
+      "tasks": 29,
+      "seconds": 0.24
+    },
+    {
+      "image": "shelf6.jpg",
+      "status": "ok",
+      "detections": 7,
+      "mean_confidence": 0.5291,
+      "summary": {
+        "correct": 0,
+        "low_facing": 6,
+        "out_of_stock": 26,
+        "misplaced": 0
+      },
+      "tasks": 32,
+      "seconds": 0.03
+    }
+  ]
+}

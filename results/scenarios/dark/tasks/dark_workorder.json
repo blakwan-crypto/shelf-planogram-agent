@@ -1,0 +1,42 @@
+{
+  "image_path": "/Users/aceboogie/Desktop/shelf-planogram-agent/data/scenarios/dark/dark.jpg",
+  "tasks": [
+    {
+      "slot_id": "r1_s1",
+      "action": "fill",
+      "detail": "3/5 facings present"
+    },
+    {
+      "slot_id": "r1_s2",
+      "action": "fill",
+      "detail": "2/5 facings present"
+    },
+    {
+      "slot_id": "r2_s1",
+      "action": "fill",
+      "detail": "4/5 facings present"
+    },
+    {
+      "slot_id": "r3_s2",
+      "action": "fill",
+      "detail": "3/5 facings present"
+    },
+    {
+      "slot_id": "r3_s8",
+      "action": "restock",
+      "detail": "slot empty \u2014 expected 5 facings"
+    },
+    {
+      "slot_id": "r4_s7",
+      "action": "fill",
+      "detail": "3/5 facings present"
+    },
+    {
+      "slot_id": "r4_s8",
+      "action": "restock",
+      "detail": "slot empty \u2014 expected 5 facings"
+    }
+  ],
+  "annotated_image": "/Users/aceboogie/Desktop/shelf-planogram-agent/results/scenarios/dark/images/dark_annotated.jpg",
+  "report_json": "/Users/aceboogie/Desktop/shelf-planogram-agent/results/scenarios/dark/tasks/dark_report.json"
+}
