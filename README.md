@@ -95,6 +95,10 @@ Reading it: the image passed validation (Stage 2), the detector found 298 produc
 - SKU-110K models find *where* products are, not *what brand* — this defined the honest project scope
 - Traces double as debugging tools and as evidence the agent actually works
 
+## AI Usage
+
+See [docs/AI_usage_log.md](docs/AI_usage_log.md) — per-session log of how AI tools were used. Summary: AI pair-programming agents drafted most of the code and the demo video; the project idea, architecture, scope decisions, test-scenario choices, and all verification and evaluation judgments were mine.
+
 ## Future Improvements
 
 - Brand-level identification (embedding matcher against a product catalog) → true "misplaced product" detection
