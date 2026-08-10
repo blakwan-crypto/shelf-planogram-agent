@@ -26,3 +26,11 @@ videos/**/.thumbnails/
 videos/**/snapshots/
 videos/**/renders/verify/
 
+
+# Per-run pipeline outputs — regenerated on every run; only the curated
+# demo image (used in the README) and the eval/scenario evidence stay tracked
+results/images/*
+!results/images/.gitkeep
+!results/images/shelf3_annotated.jpg
+results/tasks/
+results/metrics.json
